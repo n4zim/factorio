@@ -5,6 +5,7 @@
     "jsdom": "^27.2.0"
   },
   "scripts": {
-    "data": "node data.js"
+    "data": "node data.js",
+    "dependencies": "node dependencies.js"
   }
 }
