@@ -1,0 +1,509 @@
+{
+  "recipes": {
+    "Transport_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Transport_belt.png/32px-Transport_belt.png",
+      "ingredients": {
+        "Iron_gear_wheel": 1,
+        "Iron_plate": 1
+      },
+      "time": 0.5,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Transport_belt"
+    },
+    "Fast_transport_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png",
+      "ingredients": {
+        "Iron_gear_wheel": 5,
+        "Transport_belt": 1
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Fast_transport_belt"
+    },
+    "Express_transport_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png",
+      "ingredients": {
+        "Fast_transport_belt": 1,
+        "Iron_gear_wheel": 10,
+        "Lubricant": 20
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Express_transport_belt"
+    },
+    "Turbo_transport_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Turbo_transport_belt.png/32px-Turbo_transport_belt.png",
+      "ingredients": {
+        "Express_transport_belt": 1,
+        "Lubricant": 20,
+        "Tungsten_plate": 5
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Turbo_transport_belt"
+    },
+    "Underground_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Underground_belt.png/32px-Underground_belt.png",
+      "ingredients": {
+        "Iron_plate": 10,
+        "Transport_belt": 5
+      },
+      "time": 1,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Underground_belt"
+    },
+    "Fast_underground_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fast_underground_belt.png/32px-Fast_underground_belt.png",
+      "ingredients": {
+        "Iron_gear_wheel": 40,
+        "Underground_belt": 2
+      },
+      "time": 2,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Fast_underground_belt"
+    },
+    "Express_underground_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Express_underground_belt.png/32px-Express_underground_belt.png",
+      "ingredients": {
+        "Fast_underground_belt": 2,
+        "Iron_gear_wheel": 80,
+        "Lubricant": 40
+      },
+      "time": 2,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Express_underground_belt"
+    },
+    "Turbo_underground_belt": {
+      "icon": "https://wiki.factorio.com/images/thumb/Turbo_underground_belt.png/32px-Turbo_underground_belt.png",
+      "ingredients": {
+        "Express_underground_belt": 2,
+        "Lubricant": 40,
+        "Tungsten_plate": 40
+      },
+      "time": 2,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Turbo_underground_belt"
+    },
+    "Splitter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Splitter.png/32px-Splitter.png",
+      "ingredients": {
+        "Electronic_circuit": 5,
+        "Iron_plate": 5,
+        "Transport_belt": 4
+      },
+      "time": 1,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Splitter"
+    },
+    "Fast_splitter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fast_splitter.png/32px-Fast_splitter.png",
+      "ingredients": {
+        "Electronic_circuit": 10,
+        "Iron_gear_wheel": 10,
+        "Splitter": 1
+      },
+      "time": 2,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Fast_splitter"
+    },
+    "Express_splitter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Express_splitter.png/32px-Express_splitter.png",
+      "ingredients": {
+        "Advanced_circuit": 10,
+        "Fast_splitter": 1,
+        "Iron_gear_wheel": 10,
+        "Lubricant": 80
+      },
+      "time": 2,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Express_splitter"
+    },
+    "Turbo_splitter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Turbo_splitter.png/32px-Turbo_splitter.png",
+      "ingredients": {
+        "Express_splitter": 1,
+        "Lubricant": 80,
+        "Processing_unit": 2,
+        "Tungsten_plate": 15
+      },
+      "time": 2,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Turbo_splitter"
+    },
+    "Inserter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Inserter.png/32px-Inserter.png",
+      "ingredients": {
+        "Electronic_circuit": 1,
+        "Iron_gear_wheel": 1,
+        "Iron_plate": 1
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Inserter"
+    },
+    "Long-handed_inserter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Long-handed_inserter.png/32px-Long-handed_inserter.png",
+      "ingredients": {
+        "Inserter": 1,
+        "Iron_gear_wheel": 1,
+        "Iron_plate": 1
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Long-handed_inserter"
+    },
+    "Fast_inserter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fast_inserter.png/32px-Fast_inserter.png",
+      "ingredients": {
+        "Electronic_circuit": 2,
+        "Inserter": 1,
+        "Iron_plate": 2
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Fast_inserter"
+    },
+    "Bulk_inserter": {
+      "icon": "https://wiki.factorio.com/images/thumb/Bulk_inserter.png/32px-Bulk_inserter.png",
+      "ingredients": {
+        "Advanced_circuit": 1,
+        "Electronic_circuit": 15,
+        "Fast_inserter": 1,
+        "Iron_gear_wheel": 15
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Bulk_inserter"
+    },
+    "Big_electric_pole": {
+      "icon": "https://wiki.factorio.com/images/thumb/Big_electric_pole.png/32px-Big_electric_pole.png",
+      "ingredients": {
+        "Copper_cable": 4,
+        "Iron_stick": 8,
+        "Steel_plate": 5
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Big_electric_pole"
+    },
+    "Pipe": {
+      "icon": "https://wiki.factorio.com/images/thumb/Pipe.png/32px-Pipe.png",
+      "ingredients": {
+        "Iron_plate": 1
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Pipe"
+    },
+    "Pipe_to_ground": {
+      "icon": "https://wiki.factorio.com/images/thumb/Pipe_to_ground.png/32px-Pipe_to_ground.png",
+      "ingredients": {
+        "Iron_plate": 5,
+        "Pipe": 10
+      },
+      "time": 0.5,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Pipe_to_ground"
+    },
+    "Rail": {
+      "icon": "https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png",
+      "ingredients": {
+        "Iron_stick": 1,
+        "Steel_plate": 1,
+        "Stone": 1
+      },
+      "time": 0.5,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Rail"
+    },
+    "Stone_brick": {
+      "icon": "https://wiki.factorio.com/images/thumb/Stone_brick.png/32px-Stone_brick.png",
+      "ingredients": {
+        "Stone": 2
+      },
+      "time": 3.2,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Stone_brick"
+    },
+    "Concrete": {
+      "icon": "https://wiki.factorio.com/images/thumb/Concrete.png/32px-Concrete.png",
+      "ingredients": {
+        "Iron_ore": 1,
+        "Stone_brick": 5,
+        "Water": 100
+      },
+      "time": 10,
+      "output": 10,
+      "link": "https://wiki.factorio.com/Concrete"
+    },
+    "Refined_concrete": {
+      "icon": "https://wiki.factorio.com/images/thumb/Refined_concrete.png/32px-Refined_concrete.png",
+      "ingredients": {
+        "Concrete": 20,
+        "Iron_stick": 8,
+        "Steel_plate": 1,
+        "Water": 100
+      },
+      "time": 15,
+      "output": 10,
+      "link": "https://wiki.factorio.com/Refined_concrete"
+    },
+    "Firearm_magazine": {
+      "icon": "https://wiki.factorio.com/images/thumb/Firearm_magazine.png/32px-Firearm_magazine.png",
+      "ingredients": {
+        "Iron_plate": 4
+      },
+      "time": 1,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Firearm_magazine"
+    },
+    "Piercing_rounds_magazine": {
+      "icon": "https://wiki.factorio.com/images/thumb/Piercing_rounds_magazine.png/32px-Piercing_rounds_magazine.png",
+      "ingredients": {
+        "Copper_plate": 2,
+        "Firearm_magazine": 2,
+        "Steel_plate": 1
+      },
+      "time": 6,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Piercing_rounds_magazine"
+    },
+    "Uranium_rounds_magazine": {
+      "icon": "https://wiki.factorio.com/images/thumb/Uranium_rounds_magazine.png/32px-Uranium_rounds_magazine.png",
+      "ingredients": {
+        "Piercing_rounds_magazine": 1,
+        "Uranium-238": 1
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Uranium_rounds_magazine"
+    },
+    "Explosives": {
+      "icon": "https://wiki.factorio.com/images/thumb/Explosives.png/32px-Explosives.png",
+      "ingredients": {
+        "Coal": 1,
+        "Sulfur": 1,
+        "Water": 10
+      },
+      "time": 4,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Explosives"
+    },
+    "Grenade": {
+      "icon": "https://wiki.factorio.com/images/thumb/Grenade.png/32px-Grenade.png",
+      "ingredients": {
+        "Coal": 10,
+        "Iron_plate": 5
+      },
+      "time": 8,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Grenade"
+    },
+    "Cluster_grenade": {
+      "icon": "https://wiki.factorio.com/images/thumb/Cluster_grenade.png/32px-Cluster_grenade.png",
+      "ingredients": {
+        "Explosives": 5,
+        "Grenade": 7,
+        "Steel_plate": 5
+      },
+      "time": 8,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Cluster_grenade"
+    },
+    "Iron_gear_wheel": {
+      "icon": "https://wiki.factorio.com/images/thumb/Iron_gear_wheel.png/32px-Iron_gear_wheel.png",
+      "ingredients": {
+        "Iron_plate": 2
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Iron_gear_wheel"
+    },
+    "Iron_plate": {
+      "icon": "https://wiki.factorio.com/images/thumb/Iron_plate.png/32px-Iron_plate.png",
+      "ingredients": {
+        "Iron_ore": 1
+      },
+      "time": 3.2,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Iron_plate"
+    },
+    "Lubricant": {
+      "icon": "https://wiki.factorio.com/images/thumb/Lubricant.png/32px-Lubricant.png",
+      "ingredients": {
+        "Heavy_oil": 10
+      },
+      "time": 1,
+      "output": 10,
+      "link": "https://wiki.factorio.com/Lubricant"
+    },
+    "Tungsten_plate": {
+      "icon": "https://wiki.factorio.com/images/thumb/Tungsten_plate.png/32px-Tungsten_plate.png",
+      "ingredients": {
+        "Molten_iron": 10,
+        "Tungsten_ore": 4
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Tungsten_plate"
+    },
+    "Electronic_circuit": {
+      "icon": "https://wiki.factorio.com/images/thumb/Electronic_circuit.png/32px-Electronic_circuit.png",
+      "ingredients": {
+        "Copper_cable": 3,
+        "Iron_plate": 1
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Electronic_circuit"
+    },
+    "Advanced_circuit": {
+      "icon": "https://wiki.factorio.com/images/thumb/Advanced_circuit.png/32px-Advanced_circuit.png",
+      "ingredients": {
+        "Copper_cable": 4,
+        "Electronic_circuit": 2,
+        "Plastic_bar": 2
+      },
+      "time": 6,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Advanced_circuit"
+    },
+    "Processing_unit": {
+      "icon": "https://wiki.factorio.com/images/thumb/Processing_unit.png/32px-Processing_unit.png",
+      "ingredients": {
+        "Advanced_circuit": 2,
+        "Electronic_circuit": 20,
+        "Sulfuric_acid": 5
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Processing_unit"
+    },
+    "Copper_cable": {
+      "icon": "https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png",
+      "ingredients": {
+        "Copper_plate": 1
+      },
+      "time": 0.5,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Copper_cable"
+    },
+    "Iron_stick": {
+      "icon": "https://wiki.factorio.com/images/thumb/Iron_stick.png/32px-Iron_stick.png",
+      "ingredients": {
+        "Iron_plate": 1
+      },
+      "time": 0.5,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Iron_stick"
+    },
+    "Steel_plate": {
+      "icon": "https://wiki.factorio.com/images/thumb/Steel_plate.png/32px-Steel_plate.png",
+      "ingredients": {
+        "Iron_plate": 5
+      },
+      "time": 16,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Steel_plate"
+    },
+    "Copper_plate": {
+      "icon": "https://wiki.factorio.com/images/thumb/Copper_plate.png/32px-Copper_plate.png",
+      "ingredients": {
+        "Copper_ore": 1
+      },
+      "time": 3.2,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Copper_plate"
+    },
+    "Uranium-238": {
+      "icon": "https://wiki.factorio.com/images/thumb/Uranium-238.png/32px-Uranium-238.png",
+      "ingredients": {
+        "Uranium_ore": 10
+      },
+      "time": 12,
+      "output": 0.993,
+      "link": "https://wiki.factorio.com/Uranium-238"
+    },
+    "Sulfur": {
+      "icon": "https://wiki.factorio.com/images/thumb/Sulfur.png/32px-Sulfur.png",
+      "ingredients": {
+        "Petroleum_gas": 30,
+        "Water": 30
+      },
+      "time": 1,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Sulfur"
+    },
+    "Molten_iron": {
+      "icon": "https://wiki.factorio.com/images/thumb/Molten_iron.png/32px-Molten_iron.png",
+      "ingredients": {
+        "Calcite": 1,
+        "Iron_ore": 50
+      },
+      "time": 32,
+      "output": 500,
+      "link": "https://wiki.factorio.com/Molten_iron"
+    },
+    "Plastic_bar": {
+      "icon": "https://wiki.factorio.com/images/thumb/Plastic_bar.png/32px-Plastic_bar.png",
+      "ingredients": {
+        "Coal": 1,
+        "Petroleum_gas": 20
+      },
+      "time": 1,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Plastic_bar"
+    },
+    "Sulfuric_acid": {
+      "icon": "https://wiki.factorio.com/images/thumb/Sulfuric_acid.png/32px-Sulfuric_acid.png",
+      "ingredients": {
+        "Iron_plate": 1,
+        "Sulfur": 5,
+        "Water": 100
+      },
+      "time": 1,
+      "output": 50,
+      "link": "https://wiki.factorio.com/Sulfuric_acid"
+    },
+    "Stone": {
+      "icon": "https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png",
+      "link": "https://wiki.factorio.com/Stone"
+    },
+    "Iron_ore": {
+      "icon": "https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png",
+      "link": "https://wiki.factorio.com/Iron_ore"
+    },
+    "Water": {
+      "icon": "https://wiki.factorio.com/images/thumb/Water.png/32px-Water.png",
+      "link": "https://wiki.factorio.com/Water"
+    },
+    "Coal": {
+      "icon": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png",
+      "link": "https://wiki.factorio.com/Coal"
+    },
+    "Heavy_oil": {
+      "icon": "https://wiki.factorio.com/images/thumb/Heavy_oil.png/32px-Heavy_oil.png",
+      "link": "https://wiki.factorio.com/Heavy_oil"
+    },
+    "Tungsten_ore": {
+      "icon": "https://wiki.factorio.com/images/thumb/Tungsten_ore.png/32px-Tungsten_ore.png",
+      "link": "https://wiki.factorio.com/Tungsten_ore"
+    },
+    "Copper_ore": {
+      "icon": "https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png",
+      "link": "https://wiki.factorio.com/Copper_ore"
+    },
+    "Uranium_ore": {
+      "icon": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
+      "link": "https://wiki.factorio.com/Uranium_ore"
+    },
+    "Petroleum_gas": {
+      "icon": "https://wiki.factorio.com/images/thumb/Petroleum_gas.png/32px-Petroleum_gas.png",
+      "link": "https://wiki.factorio.com/Petroleum_gas"
+    },
+    "Calcite": {
+      "icon": "https://wiki.factorio.com/images/thumb/Calcite.png/32px-Calcite.png",
+      "link": "https://wiki.factorio.com/Calcite"
+    }
+  }
+}

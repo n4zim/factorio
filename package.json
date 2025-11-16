@@ -1,0 +1,10 @@
+{
+  "license": "Apache-2.0",
+  "author": { "name": "Nazim Lachter" },
+  "dependencies": {
+    "jsdom": "^27.2.0"
+  },
+  "scripts": {
+    "data": "node data.js"
+  }
+}
