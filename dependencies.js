@@ -1,7 +1,7 @@
 const icons = []
 const links = []
 
-const data = require('./public/data.json')
+const data = require('./docs/data.json')
 for(const recipe in data.recipes) {
   icons.push(`${recipe}[&lt;img src=&#39;${data.recipes[recipe].icon}&#39;/&gt;]`)
   for(const ingredient in data.recipes[recipe].ingredients) {
@@ -10,7 +10,7 @@ for(const recipe in data.recipes) {
   }
 }
 
-require('fs').writeFileSync('./public/dependencies.html', generate())
+require('fs').writeFileSync('./docs/dependencies.html', generate())
 
 function generate() {
   return `<style>

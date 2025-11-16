@@ -73,7 +73,7 @@ const fs = require('fs')
 const { JSDOM } = require('jsdom')
 
 ;(async () => {
-  const data = require('./public/data.json')
+  const data = require('./docs/data.json')
   const missing = []
   for (const recipe of [ ...RECIPES, ...BASE ]) {
     if (data.recipes[recipe]) {
@@ -146,7 +146,7 @@ const { JSDOM } = require('jsdom')
       link: `${URL}/${recipe}`
     }
   }
-  fs.writeFileSync('./public/data.json', JSON.stringify(data, null, 2))
+  fs.writeFileSync('./docs/data.json', JSON.stringify(data, null, 2))
   if(missing.length > 0) {
     console.log('Missing ingredients:')
     for(const ingredient of missing) {
