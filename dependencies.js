@@ -65,6 +65,7 @@ ${styles.join('\n')}
 <script>
 mermaid.initialize({
   startOnLoad: true,
+  maxTextSize: 90000,
   securityLevel: 'loose',
   flowchart: {
     rankSpacing: 200,
