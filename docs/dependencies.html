@@ -1,344 +1,477 @@
 <style>
   html { max-width: 100%; background-color: black; }
-  img { width: 32px; height: 32px; }
-    .node { background-color: white; margin: 16px; }
+  .node { margin: 16px; }
+  .label { font-weight: bold; text-align: center; }
 </style>
   <div class="mermaid">
   graph TB
-Transport_belt[<a href='https://wiki.factorio.com/Transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Transport_belt.png/32px-Transport_belt.png&#39;/&gt;</a>]
-Fast_transport_belt[<a href='https://wiki.factorio.com/Fast_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png&#39;/&gt;</a>]
-Express_transport_belt[<a href='https://wiki.factorio.com/Express_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png&#39;/&gt;</a>]
-Turbo_transport_belt[<a href='https://wiki.factorio.com/Turbo_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_transport_belt.png/32px-Turbo_transport_belt.png&#39;/&gt;</a>]
-Underground_belt[<a href='https://wiki.factorio.com/Underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Underground_belt.png/32px-Underground_belt.png&#39;/&gt;</a>]
-Fast_underground_belt[<a href='https://wiki.factorio.com/Fast_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_underground_belt.png/32px-Fast_underground_belt.png&#39;/&gt;</a>]
-Express_underground_belt[<a href='https://wiki.factorio.com/Express_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_underground_belt.png/32px-Express_underground_belt.png&#39;/&gt;</a>]
-Turbo_underground_belt[<a href='https://wiki.factorio.com/Turbo_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_underground_belt.png/32px-Turbo_underground_belt.png&#39;/&gt;</a>]
-Splitter[<a href='https://wiki.factorio.com/Splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Splitter.png/32px-Splitter.png&#39;/&gt;</a>]
-Fast_splitter[<a href='https://wiki.factorio.com/Fast_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_splitter.png/32px-Fast_splitter.png&#39;/&gt;</a>]
-Express_splitter[<a href='https://wiki.factorio.com/Express_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_splitter.png/32px-Express_splitter.png&#39;/&gt;</a>]
-Turbo_splitter[<a href='https://wiki.factorio.com/Turbo_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_splitter.png/32px-Turbo_splitter.png&#39;/&gt;</a>]
-Inserter[<a href='https://wiki.factorio.com/Inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Inserter.png/32px-Inserter.png&#39;/&gt;</a>]
-Long-handed_inserter[<a href='https://wiki.factorio.com/Long-handed_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Long-handed_inserter.png/32px-Long-handed_inserter.png&#39;/&gt;</a>]
-Fast_inserter[<a href='https://wiki.factorio.com/Fast_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_inserter.png/32px-Fast_inserter.png&#39;/&gt;</a>]
-Bulk_inserter[<a href='https://wiki.factorio.com/Bulk_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Bulk_inserter.png/32px-Bulk_inserter.png&#39;/&gt;</a>]
-Big_electric_pole[<a href='https://wiki.factorio.com/Big_electric_pole'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Big_electric_pole.png/32px-Big_electric_pole.png&#39;/&gt;</a>]
-Pipe[<a href='https://wiki.factorio.com/Pipe'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe.png/32px-Pipe.png&#39;/&gt;</a>]
-Pipe_to_ground[<a href='https://wiki.factorio.com/Pipe_to_ground'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe_to_ground.png/32px-Pipe_to_ground.png&#39;/&gt;</a>]
-Rail[<a href='https://wiki.factorio.com/Rail'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png&#39;/&gt;</a>]
-Stone_brick[<a href='https://wiki.factorio.com/Stone_brick'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone_brick.png/32px-Stone_brick.png&#39;/&gt;</a>]
-Concrete[<a href='https://wiki.factorio.com/Concrete'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Concrete.png/32px-Concrete.png&#39;/&gt;</a>]
-Refined_concrete[<a href='https://wiki.factorio.com/Refined_concrete'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Refined_concrete.png/32px-Refined_concrete.png&#39;/&gt;</a>]
-Firearm_magazine[<a href='https://wiki.factorio.com/Firearm_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Firearm_magazine.png/32px-Firearm_magazine.png&#39;/&gt;</a>]
-Piercing_rounds_magazine[<a href='https://wiki.factorio.com/Piercing_rounds_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Piercing_rounds_magazine.png/32px-Piercing_rounds_magazine.png&#39;/&gt;</a>]
-Uranium_rounds_magazine[<a href='https://wiki.factorio.com/Uranium_rounds_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_rounds_magazine.png/32px-Uranium_rounds_magazine.png&#39;/&gt;</a>]
-Explosives[<a href='https://wiki.factorio.com/Explosives'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Explosives.png/32px-Explosives.png&#39;/&gt;</a>]
-Grenade[<a href='https://wiki.factorio.com/Grenade'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Grenade.png/32px-Grenade.png&#39;/&gt;</a>]
-Cluster_grenade[<a href='https://wiki.factorio.com/Cluster_grenade'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Cluster_grenade.png/32px-Cluster_grenade.png&#39;/&gt;</a>]
-Iron_gear_wheel[<a href='https://wiki.factorio.com/Iron_gear_wheel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_gear_wheel.png/32px-Iron_gear_wheel.png&#39;/&gt;</a>]
-Iron_plate[<a href='https://wiki.factorio.com/Iron_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_plate.png/32px-Iron_plate.png&#39;/&gt;</a>]
-Lubricant[<a href='https://wiki.factorio.com/Lubricant'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Lubricant.png/32px-Lubricant.png&#39;/&gt;</a>]
-Tungsten_plate[<a href='https://wiki.factorio.com/Tungsten_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_plate.png/32px-Tungsten_plate.png&#39;/&gt;</a>]
-Electronic_circuit[<a href='https://wiki.factorio.com/Electronic_circuit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Electronic_circuit.png/32px-Electronic_circuit.png&#39;/&gt;</a>]
-Advanced_circuit[<a href='https://wiki.factorio.com/Advanced_circuit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Advanced_circuit.png/32px-Advanced_circuit.png&#39;/&gt;</a>]
-Processing_unit[<a href='https://wiki.factorio.com/Processing_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Processing_unit.png/32px-Processing_unit.png&#39;/&gt;</a>]
-Copper_cable[<a href='https://wiki.factorio.com/Copper_cable'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png&#39;/&gt;</a>]
-Iron_stick[<a href='https://wiki.factorio.com/Iron_stick'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_stick.png/32px-Iron_stick.png&#39;/&gt;</a>]
-Steel_plate[<a href='https://wiki.factorio.com/Steel_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Steel_plate.png/32px-Steel_plate.png&#39;/&gt;</a>]
-Copper_plate[<a href='https://wiki.factorio.com/Copper_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_plate.png/32px-Copper_plate.png&#39;/&gt;</a>]
-Uranium-238[<a href='https://wiki.factorio.com/Uranium-238'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium-238.png/32px-Uranium-238.png&#39;/&gt;</a>]
-Sulfur[<a href='https://wiki.factorio.com/Sulfur'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfur.png/32px-Sulfur.png&#39;/&gt;</a>]
-Molten_iron[<a href='https://wiki.factorio.com/Molten_iron'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Molten_iron.png/32px-Molten_iron.png&#39;/&gt;</a>]
-Plastic_bar[<a href='https://wiki.factorio.com/Plastic_bar'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Plastic_bar.png/32px-Plastic_bar.png&#39;/&gt;</a>]
-Sulfuric_acid[<a href='https://wiki.factorio.com/Sulfuric_acid'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfuric_acid.png/32px-Sulfuric_acid.png&#39;/&gt;</a>]
-Stone[<a href='https://wiki.factorio.com/Stone'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png&#39;/&gt;</a>]
-Iron_ore[<a href='https://wiki.factorio.com/Iron_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png&#39;/&gt;</a>]
-Water[<a href='https://wiki.factorio.com/Water'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Water.png/32px-Water.png&#39;/&gt;</a>]
-Coal[<a href='https://wiki.factorio.com/Coal'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png&#39;/&gt;</a>]
-Heavy_oil[<a href='https://wiki.factorio.com/Heavy_oil'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Heavy_oil.png/32px-Heavy_oil.png&#39;/&gt;</a>]
-Tungsten_ore[<a href='https://wiki.factorio.com/Tungsten_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_ore.png/32px-Tungsten_ore.png&#39;/&gt;</a>]
-Copper_ore[<a href='https://wiki.factorio.com/Copper_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png&#39;/&gt;</a>]
-Uranium_ore[<a href='https://wiki.factorio.com/Uranium_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png&#39;/&gt;</a>]
-Petroleum_gas[<a href='https://wiki.factorio.com/Petroleum_gas'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Petroleum_gas.png/32px-Petroleum_gas.png&#39;/&gt;</a>]
-Calcite[<a href='https://wiki.factorio.com/Calcite'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Calcite.png/32px-Calcite.png&#39;/&gt;</a>]
-Atomic_bomb[<a href='https://wiki.factorio.com/Atomic_bomb'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Atomic_bomb.png/32px-Atomic_bomb.png&#39;/&gt;</a>]
-Electric_engine_unit[<a href='https://wiki.factorio.com/Electric_engine_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Electric_engine_unit.png/32px-Electric_engine_unit.png&#39;/&gt;</a>]
-Explosive_rocket[<a href='https://wiki.factorio.com/Explosive_rocket'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Explosive_rocket.png/32px-Explosive_rocket.png&#39;/&gt;</a>]
-Flying_robot_frame[<a href='https://wiki.factorio.com/Flying_robot_frame'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Flying_robot_frame.png/32px-Flying_robot_frame.png&#39;/&gt;</a>]
-Low_density_structure[<a href='https://wiki.factorio.com/Low_density_structure'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Low_density_structure.png/32px-Low_density_structure.png&#39;/&gt;</a>]
-Nuclear_fuel[<a href='https://wiki.factorio.com/Nuclear_fuel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Nuclear_fuel.png/32px-Nuclear_fuel.png&#39;/&gt;</a>]
-Rocket_fuel[<a href='https://wiki.factorio.com/Rocket_fuel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Rocket_fuel.png/32px-Rocket_fuel.png&#39;/&gt;</a>]
-Rocket[<a href='https://wiki.factorio.com/Rocket'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Rocket.png/32px-Rocket.png&#39;/&gt;</a>]
-Uranium-235[<a href='https://wiki.factorio.com/Uranium-235'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium-235.png/32px-Uranium-235.png&#39;/&gt;</a>]
-Engine_unit[<a href='https://wiki.factorio.com/Engine_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Engine_unit.png/32px-Engine_unit.png&#39;/&gt;</a>]
-Battery[<a href='https://wiki.factorio.com/Battery'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Battery.png/32px-Battery.png&#39;/&gt;</a>]
-Light_oil[<a href='https://wiki.factorio.com/Light_oil'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Light_oil.png/32px-Light_oil.png&#39;/&gt;</a>]
-Solid_fuel[<a href='https://wiki.factorio.com/Solid_fuel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Solid_fuel.png/32px-Solid_fuel.png&#39;/&gt;</a>]
+Transport_belt[<a href='https://wiki.factorio.com/Transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Transport_belt.png/32px-Transport_belt.png&#39;/&gt;</a><br>Output: 4/s<br>Links: 3<br>Required: 10<br>For final: 45<br>Min. build: 12]
+Fast_transport_belt[<a href='https://wiki.factorio.com/Fast_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 1]
+Express_transport_belt[<a href='https://wiki.factorio.com/Express_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 1]
+Turbo_transport_belt[<a href='https://wiki.factorio.com/Turbo_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_transport_belt.png/32px-Turbo_transport_belt.png&#39;/&gt;</a><br>Output: 2/s]
+Underground_belt[<a href='https://wiki.factorio.com/Underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Underground_belt.png/32px-Underground_belt.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 1<br>Required: 2<br>For final: 8<br>Min. build: 4]
+Fast_underground_belt[<a href='https://wiki.factorio.com/Fast_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_underground_belt.png/32px-Fast_underground_belt.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 2<br>For final: 4<br>Min. build: 4]
+Express_underground_belt[<a href='https://wiki.factorio.com/Express_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_underground_belt.png/32px-Express_underground_belt.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 2<br>For final: 2<br>Min. build: 2]
+Turbo_underground_belt[<a href='https://wiki.factorio.com/Turbo_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_underground_belt.png/32px-Turbo_underground_belt.png&#39;/&gt;</a><br>Output: 1/s]
+Splitter[<a href='https://wiki.factorio.com/Splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Splitter.png/32px-Splitter.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 1]
+Fast_splitter[<a href='https://wiki.factorio.com/Fast_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_splitter.png/32px-Fast_splitter.png&#39;/&gt;</a><br>Output: 0.5/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 2]
+Express_splitter[<a href='https://wiki.factorio.com/Express_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_splitter.png/32px-Express_splitter.png&#39;/&gt;</a><br>Output: 0.5/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 2]
+Turbo_splitter[<a href='https://wiki.factorio.com/Turbo_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_splitter.png/32px-Turbo_splitter.png&#39;/&gt;</a><br>Output: 0.5/s]
+Inserter[<a href='https://wiki.factorio.com/Inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Inserter.png/32px-Inserter.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 2<br>Required: 2<br>For final: 2<br>Min. build: 1]
+Long-handed_inserter[<a href='https://wiki.factorio.com/Long-handed_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Long-handed_inserter.png/32px-Long-handed_inserter.png&#39;/&gt;</a><br>Output: 2/s]
+Fast_inserter[<a href='https://wiki.factorio.com/Fast_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_inserter.png/32px-Fast_inserter.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 1]
+Bulk_inserter[<a href='https://wiki.factorio.com/Bulk_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Bulk_inserter.png/32px-Bulk_inserter.png&#39;/&gt;</a><br>Output: 2/s]
+Big_electric_pole[<a href='https://wiki.factorio.com/Big_electric_pole'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Big_electric_pole.png/32px-Big_electric_pole.png&#39;/&gt;</a><br>Output: 2/s]
+Pipe[<a href='https://wiki.factorio.com/Pipe'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe.png/32px-Pipe.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 2<br>Required: 12<br>For final: 12<br>Min. build: 6]
+Pipe_to_ground[<a href='https://wiki.factorio.com/Pipe_to_ground'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe_to_ground.png/32px-Pipe_to_ground.png&#39;/&gt;</a><br>Output: 4/s]
+Rail[<a href='https://wiki.factorio.com/Rail'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png&#39;/&gt;</a><br>Output: 4/s]
+Stone_brick[<a href='https://wiki.factorio.com/Stone_brick'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone_brick.png/32px-Stone_brick.png&#39;/&gt;</a><br>Output: 0.3/s<br>Links: 1<br>Required: 5<br>For final: 100<br>Min. build: 320]
+Concrete[<a href='https://wiki.factorio.com/Concrete'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Concrete.png/32px-Concrete.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 20<br>For final: 20<br>Min. build: 20]
+Refined_concrete[<a href='https://wiki.factorio.com/Refined_concrete'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Refined_concrete.png/32px-Refined_concrete.png&#39;/&gt;</a><br>Output: 0.7/s]
+Firearm_magazine[<a href='https://wiki.factorio.com/Firearm_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Firearm_magazine.png/32px-Firearm_magazine.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 2<br>For final: 2<br>Min. build: 2]
+Piercing_rounds_magazine[<a href='https://wiki.factorio.com/Piercing_rounds_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Piercing_rounds_magazine.png/32px-Piercing_rounds_magazine.png&#39;/&gt;</a><br>Output: 0.3/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 3]
+Uranium_rounds_magazine[<a href='https://wiki.factorio.com/Uranium_rounds_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_rounds_magazine.png/32px-Uranium_rounds_magazine.png&#39;/&gt;</a><br>Output: 0.1/s]
+Explosives[<a href='https://wiki.factorio.com/Explosives'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Explosives.png/32px-Explosives.png&#39;/&gt;</a><br>Output: 0.5/s<br>Links: 4<br>Required: 18<br>For final: 18<br>Min. build: 36]
+Grenade[<a href='https://wiki.factorio.com/Grenade'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Grenade.png/32px-Grenade.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 1<br>Required: 7<br>For final: 7<br>Min. build: 56]
+Cluster_grenade[<a href='https://wiki.factorio.com/Cluster_grenade'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Cluster_grenade.png/32px-Cluster_grenade.png&#39;/&gt;</a><br>Output: 0.1/s]
+Iron_gear_wheel[<a href='https://wiki.factorio.com/Iron_gear_wheel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_gear_wheel.png/32px-Iron_gear_wheel.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 11<br>Required: 174<br>For final: 419<br>Min. build: 210]
+Iron_plate[<a href='https://wiki.factorio.com/Iron_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_plate.png/32px-Iron_plate.png&#39;/&gt;</a><br>Output: 0.3/s<br>Links: 17<br>Required: 48<br>For final: 1588<br>Min. build: 5082]
+Lubricant[<a href='https://wiki.factorio.com/Lubricant'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Lubricant.png/32px-Lubricant.png&#39;/&gt;</a><br>Output: 10/s<br>Links: 7<br>Required: 295<br>For final: 335<br>Min. build: 34]
+Tungsten_plate[<a href='https://wiki.factorio.com/Tungsten_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_plate.png/32px-Tungsten_plate.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 3<br>Required: 60<br>For final: 60<br>Min. build: 600]
+Electronic_circuit[<a href='https://wiki.factorio.com/Electronic_circuit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Electronic_circuit.png/32px-Electronic_circuit.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 9<br>Required: 60<br>For final: 349<br>Min. build: 175]
+Advanced_circuit[<a href='https://wiki.factorio.com/Advanced_circuit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Advanced_circuit.png/32px-Advanced_circuit.png&#39;/&gt;</a><br>Output: 0.2/s<br>Links: 3<br>Required: 13<br>For final: 35<br>Min. build: 210]
+Processing_unit[<a href='https://wiki.factorio.com/Processing_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Processing_unit.png/32px-Processing_unit.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 2<br>Required: 12<br>For final: 12<br>Min. build: 120]
+Copper_cable[<a href='https://wiki.factorio.com/Copper_cable'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png&#39;/&gt;</a><br>Output: 4/s<br>Links: 3<br>Required: 11<br>For final: 1191<br>Min. build: 298]
+Iron_stick[<a href='https://wiki.factorio.com/Iron_stick'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_stick.png/32px-Iron_stick.png&#39;/&gt;</a><br>Output: 4/s<br>Links: 3<br>Required: 17<br>For final: 17<br>Min. build: 5]
+Steel_plate[<a href='https://wiki.factorio.com/Steel_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Steel_plate.png/32px-Steel_plate.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 8<br>Required: 17<br>For final: 17<br>Min. build: 272]
+Copper_plate[<a href='https://wiki.factorio.com/Copper_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_plate.png/32px-Copper_plate.png&#39;/&gt;</a><br>Output: 0.3/s<br>Links: 4<br>Required: 24<br>For final: 1215<br>Min. build: 3888]
+Uranium-238[<a href='https://wiki.factorio.com/Uranium-238'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium-238.png/32px-Uranium-238.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 13]
+Sulfur[<a href='https://wiki.factorio.com/Sulfur'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfur.png/32px-Sulfur.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 2<br>Required: 6<br>For final: 518<br>Min. build: 259]
+Molten_iron[<a href='https://wiki.factorio.com/Molten_iron'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Molten_iron.png/32px-Molten_iron.png&#39;/&gt;</a><br>Output: 15.6/s<br>Links: 1<br>Required: 10<br>For final: 600<br>Min. build: 39]
+Plastic_bar[<a href='https://wiki.factorio.com/Plastic_bar'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Plastic_bar.png/32px-Plastic_bar.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 2<br>Required: 7<br>For final: 75<br>Min. build: 38]
+Sulfuric_acid[<a href='https://wiki.factorio.com/Sulfuric_acid'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfuric_acid.png/32px-Sulfuric_acid.png&#39;/&gt;</a><br>Output: 50/s<br>Links: 2<br>Required: 25<br>For final: 100<br>Min. build: 2]
+Stone[<a href='https://wiki.factorio.com/Stone'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 2<br>Required: 3<br>For final: 201<br>Min. build: 201]
+Iron_ore[<a href='https://wiki.factorio.com/Iron_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 3<br>Required: 52<br>For final: 31608<br>Min. build: 31608]
+Water[<a href='https://wiki.factorio.com/Water'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Water.png/32px-Water.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 5<br>Required: 340<br>For final: 27820<br>Min. build: 27820]
+Coal[<a href='https://wiki.factorio.com/Coal'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 3<br>Required: 12<br>For final: 163<br>Min. build: 163]
+Heavy_oil[<a href='https://wiki.factorio.com/Heavy_oil'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Heavy_oil.png/32px-Heavy_oil.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 10<br>For final: 3350<br>Min. build: 3350]
+Tungsten_ore[<a href='https://wiki.factorio.com/Tungsten_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_ore.png/32px-Tungsten_ore.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 4<br>For final: 240<br>Min. build: 240]
+Copper_ore[<a href='https://wiki.factorio.com/Copper_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 1<br>For final: 1215<br>Min. build: 1215]
+Uranium_ore[<a href='https://wiki.factorio.com/Uranium_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 2<br>Required: 20<br>For final: 320<br>Min. build: 320]
+Petroleum_gas[<a href='https://wiki.factorio.com/Petroleum_gas'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Petroleum_gas.png/32px-Petroleum_gas.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 2<br>Required: 50<br>For final: 17040<br>Min. build: 17040]
+Calcite[<a href='https://wiki.factorio.com/Calcite'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Calcite.png/32px-Calcite.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 1<br>For final: 600<br>Min. build: 600]
+Atomic_bomb[<a href='https://wiki.factorio.com/Atomic_bomb'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Atomic_bomb.png/32px-Atomic_bomb.png&#39;/&gt;</a><br>Output: 0/s]
+Electric_engine_unit[<a href='https://wiki.factorio.com/Electric_engine_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Electric_engine_unit.png/32px-Electric_engine_unit.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 10]
+Explosive_rocket[<a href='https://wiki.factorio.com/Explosive_rocket'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Explosive_rocket.png/32px-Explosive_rocket.png&#39;/&gt;</a><br>Output: 0.1/s]
+Flying_robot_frame[<a href='https://wiki.factorio.com/Flying_robot_frame'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Flying_robot_frame.png/32px-Flying_robot_frame.png&#39;/&gt;</a><br>Output: 0.1/s]
+Low_density_structure[<a href='https://wiki.factorio.com/Low_density_structure'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Low_density_structure.png/32px-Low_density_structure.png&#39;/&gt;</a><br>Output: 0.1/s]
+Nuclear_fuel[<a href='https://wiki.factorio.com/Nuclear_fuel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Nuclear_fuel.png/32px-Nuclear_fuel.png&#39;/&gt;</a><br>Output: 0/s]
+Rocket_fuel[<a href='https://wiki.factorio.com/Rocket_fuel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Rocket_fuel.png/32px-Rocket_fuel.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 15]
+Rocket[<a href='https://wiki.factorio.com/Rocket'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Rocket.png/32px-Rocket.png&#39;/&gt;</a><br>Output: 0.3/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 4]
+Uranium-235[<a href='https://wiki.factorio.com/Uranium-235'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium-235.png/32px-Uranium-235.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 2<br>Required: 31<br>For final: 31<br>Min. build: 375]
+Engine_unit[<a href='https://wiki.factorio.com/Engine_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Engine_unit.png/32px-Engine_unit.png&#39;/&gt;</a><br>Output: 0.1/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 10]
+Battery[<a href='https://wiki.factorio.com/Battery'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Battery.png/32px-Battery.png&#39;/&gt;</a><br>Output: 0.3/s<br>Links: 1<br>Required: 2<br>For final: 2<br>Min. build: 8]
+Light_oil[<a href='https://wiki.factorio.com/Light_oil'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Light_oil.png/32px-Light_oil.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 10<br>For final: 10<br>Min. build: 10]
+Solid_fuel[<a href='https://wiki.factorio.com/Solid_fuel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Solid_fuel.png/32px-Solid_fuel.png&#39;/&gt;</a><br>Output: 1/s<br>Links: 1<br>Required: 10<br>For final: 10<br>Min. build: 10]
 %% --------------------------------------------------------------------
-Iron_gear_wheel -- 1 --> Transport_belt
-Iron_plate -- 1 --> Transport_belt
-Iron_gear_wheel -- 5 --> Fast_transport_belt
-Transport_belt -- 1 --> Fast_transport_belt
-Fast_transport_belt -- 1 --> Express_transport_belt
-Iron_gear_wheel -- 10 --> Express_transport_belt
-Lubricant -- 20 --> Express_transport_belt
-Express_transport_belt -- 1 --> Turbo_transport_belt
-Lubricant -- 20 --> Turbo_transport_belt
-Tungsten_plate -- 5 --> Turbo_transport_belt
-Iron_plate -- 10 --> Underground_belt
-Transport_belt -- 5 --> Underground_belt
-Iron_gear_wheel -- 40 --> Fast_underground_belt
-Underground_belt -- 2 --> Fast_underground_belt
-Fast_underground_belt -- 2 --> Express_underground_belt
-Iron_gear_wheel -- 80 --> Express_underground_belt
-Lubricant -- 40 --> Express_underground_belt
-Express_underground_belt -- 2 --> Turbo_underground_belt
-Lubricant -- 40 --> Turbo_underground_belt
-Tungsten_plate -- 40 --> Turbo_underground_belt
-Electronic_circuit -- 5 --> Splitter
-Iron_plate -- 5 --> Splitter
-Transport_belt -- 4 --> Splitter
-Electronic_circuit -- 10 --> Fast_splitter
-Iron_gear_wheel -- 10 --> Fast_splitter
-Splitter -- 1 --> Fast_splitter
-Advanced_circuit -- 10 --> Express_splitter
-Fast_splitter -- 1 --> Express_splitter
-Iron_gear_wheel -- 10 --> Express_splitter
-Lubricant -- 80 --> Express_splitter
-Express_splitter -- 1 --> Turbo_splitter
-Lubricant -- 80 --> Turbo_splitter
-Processing_unit -- 2 --> Turbo_splitter
-Tungsten_plate -- 15 --> Turbo_splitter
-Electronic_circuit -- 1 --> Inserter
-Iron_gear_wheel -- 1 --> Inserter
-Iron_plate -- 1 --> Inserter
-Inserter -- 1 --> Long-handed_inserter
-Iron_gear_wheel -- 1 --> Long-handed_inserter
-Iron_plate -- 1 --> Long-handed_inserter
-Electronic_circuit -- 2 --> Fast_inserter
-Inserter -- 1 --> Fast_inserter
-Iron_plate -- 2 --> Fast_inserter
-Advanced_circuit -- 1 --> Bulk_inserter
-Electronic_circuit -- 15 --> Bulk_inserter
-Fast_inserter -- 1 --> Bulk_inserter
-Iron_gear_wheel -- 15 --> Bulk_inserter
-Copper_cable -- 4 --> Big_electric_pole
-Iron_stick -- 8 --> Big_electric_pole
-Steel_plate -- 5 --> Big_electric_pole
-Iron_plate -- 1 --> Pipe
-Iron_plate -- 5 --> Pipe_to_ground
-Pipe -- 10 --> Pipe_to_ground
-Iron_stick -- 1 --> Rail
-Steel_plate -- 1 --> Rail
-Stone -- 1 --> Rail
-Stone -- 2 --> Stone_brick
-Iron_ore -- 1 --> Concrete
-Stone_brick -- 5 --> Concrete
-Water -- 100 --> Concrete
-Concrete -- 20 --> Refined_concrete
-Iron_stick -- 8 --> Refined_concrete
-Steel_plate -- 1 --> Refined_concrete
-Water -- 100 --> Refined_concrete
-Iron_plate -- 4 --> Firearm_magazine
-Copper_plate -- 2 --> Piercing_rounds_magazine
-Firearm_magazine -- 2 --> Piercing_rounds_magazine
-Steel_plate -- 1 --> Piercing_rounds_magazine
-Piercing_rounds_magazine -- 1 --> Uranium_rounds_magazine
-Uranium-238 -- 1 --> Uranium_rounds_magazine
-Coal -- 1 --> Explosives
-Sulfur -- 1 --> Explosives
-Water -- 10 --> Explosives
-Coal -- 10 --> Grenade
-Iron_plate -- 5 --> Grenade
-Explosives -- 5 --> Cluster_grenade
-Grenade -- 7 --> Cluster_grenade
-Steel_plate -- 5 --> Cluster_grenade
-Iron_plate -- 2 --> Iron_gear_wheel
-Iron_ore -- 1 --> Iron_plate
-Heavy_oil -- 10 --> Lubricant
-Molten_iron -- 10 --> Tungsten_plate
-Tungsten_ore -- 4 --> Tungsten_plate
-Copper_cable -- 3 --> Electronic_circuit
-Iron_plate -- 1 --> Electronic_circuit
-Copper_cable -- 4 --> Advanced_circuit
-Electronic_circuit -- 2 --> Advanced_circuit
-Plastic_bar -- 2 --> Advanced_circuit
-Advanced_circuit -- 2 --> Processing_unit
-Electronic_circuit -- 20 --> Processing_unit
-Sulfuric_acid -- 5 --> Processing_unit
-Copper_plate -- 1 --> Copper_cable
-Iron_plate -- 1 --> Iron_stick
-Iron_plate -- 5 --> Steel_plate
-Copper_ore -- 1 --> Copper_plate
-Uranium_ore -- 10 --> Uranium-238
-Petroleum_gas -- 30 --> Sulfur
-Water -- 30 --> Sulfur
-Calcite -- 1 --> Molten_iron
-Iron_ore -- 50 --> Molten_iron
-Coal -- 1 --> Plastic_bar
-Petroleum_gas -- 20 --> Plastic_bar
-Iron_plate -- 1 --> Sulfuric_acid
-Sulfur -- 5 --> Sulfuric_acid
-Water -- 100 --> Sulfuric_acid
-Explosives -- 10 --> Atomic_bomb
-Processing_unit -- 10 --> Atomic_bomb
-Uranium-235 -- 30 --> Atomic_bomb
-Electronic_circuit -- 2 --> Electric_engine_unit
-Engine_unit -- 1 --> Electric_engine_unit
-Lubricant -- 15 --> Electric_engine_unit
-Explosives -- 2 --> Explosive_rocket
-Rocket -- 1 --> Explosive_rocket
-Battery -- 2 --> Flying_robot_frame
-Electric_engine_unit -- 1 --> Flying_robot_frame
-Electronic_circuit -- 3 --> Flying_robot_frame
-Steel_plate -- 1 --> Flying_robot_frame
-Copper_plate -- 20 --> Low_density_structure
-Plastic_bar -- 5 --> Low_density_structure
-Steel_plate -- 2 --> Low_density_structure
-Rocket_fuel -- 1 --> Nuclear_fuel
-Uranium-235 -- 1 --> Nuclear_fuel
-Light_oil -- 10 --> Rocket_fuel
-Solid_fuel -- 10 --> Rocket_fuel
-Explosives -- 1 --> Rocket
-Iron_plate -- 2 --> Rocket
-Uranium_ore -- 10 --> Uranium-235
-Iron_gear_wheel -- 1 --> Engine_unit
-Pipe -- 2 --> Engine_unit
-Steel_plate -- 1 --> Engine_unit
-Copper_plate -- 1 --> Battery
-Iron_plate -- 1 --> Battery
-Sulfuric_acid -- 20 --> Battery
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>1</div> --> Transport_belt
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Transport_belt
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>5</div> --> Fast_transport_belt
+Transport_belt -- <div class='label' style='background-color:#25B481;'>1</div> --> Fast_transport_belt
+Fast_transport_belt -- <div class='label' style='background-color:#900284;'>1</div> --> Express_transport_belt
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>10</div> --> Express_transport_belt
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>20</div> --> Express_transport_belt
+Express_transport_belt -- <div class='label' style='background-color:#1AA530;'>1</div> --> Turbo_transport_belt
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>20</div> --> Turbo_transport_belt
+Tungsten_plate -- <div class='label' style='background-color:#3EA0FB;'>5</div> --> Turbo_transport_belt
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>10</div> --> Underground_belt
+Transport_belt -- <div class='label' style='background-color:#25B481;'>5</div> --> Underground_belt
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>40</div> --> Fast_underground_belt
+Underground_belt -- <div class='label' style='background-color:#6F1B0B;'>2</div> --> Fast_underground_belt
+Fast_underground_belt -- <div class='label' style='background-color:#7DF44E;'>2</div> --> Express_underground_belt
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>80</div> --> Express_underground_belt
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>40</div> --> Express_underground_belt
+Express_underground_belt -- <div class='label' style='background-color:#EA9BFA;'>2</div> --> Turbo_underground_belt
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>40</div> --> Turbo_underground_belt
+Tungsten_plate -- <div class='label' style='background-color:#3EA0FB;'>40</div> --> Turbo_underground_belt
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>5</div> --> Splitter
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>5</div> --> Splitter
+Transport_belt -- <div class='label' style='background-color:#25B481;'>4</div> --> Splitter
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>10</div> --> Fast_splitter
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>10</div> --> Fast_splitter
+Splitter -- <div class='label' style='background-color:#04FAE7;'>1</div> --> Fast_splitter
+Advanced_circuit -- <div class='label' style='background-color:#5510EC;'>10</div> --> Express_splitter
+Fast_splitter -- <div class='label' style='background-color:#B6C72A;'>1</div> --> Express_splitter
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>10</div> --> Express_splitter
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>80</div> --> Express_splitter
+Express_splitter -- <div class='label' style='background-color:#EBDAD6;'>1</div> --> Turbo_splitter
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>80</div> --> Turbo_splitter
+Processing_unit -- <div class='label' style='background-color:#4B8F10;'>2</div> --> Turbo_splitter
+Tungsten_plate -- <div class='label' style='background-color:#3EA0FB;'>15</div> --> Turbo_splitter
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>1</div> --> Inserter
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>1</div> --> Inserter
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Inserter
+Inserter -- <div class='label' style='background-color:#256946;'>1</div> --> Long-handed_inserter
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>1</div> --> Long-handed_inserter
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Long-handed_inserter
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>2</div> --> Fast_inserter
+Inserter -- <div class='label' style='background-color:#256946;'>1</div> --> Fast_inserter
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>2</div> --> Fast_inserter
+Advanced_circuit -- <div class='label' style='background-color:#5510EC;'>1</div> --> Bulk_inserter
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>15</div> --> Bulk_inserter
+Fast_inserter -- <div class='label' style='background-color:#D73589;'>1</div> --> Bulk_inserter
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>15</div> --> Bulk_inserter
+Copper_cable -- <div class='label' style='background-color:#D3FDB7;'>4</div> --> Big_electric_pole
+Iron_stick -- <div class='label' style='background-color:#A1DE79;'>8</div> --> Big_electric_pole
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>5</div> --> Big_electric_pole
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Pipe
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>5</div> --> Pipe_to_ground
+Pipe -- <div class='label' style='background-color:#25F5CE;'>10</div> --> Pipe_to_ground
+Iron_stick -- <div class='label' style='background-color:#A1DE79;'>1</div> --> Rail
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>1</div> --> Rail
+Stone -- <div class='label' style='background-color:#C80845;'>1</div> --> Rail
+Stone -- <div class='label' style='background-color:#C80845;'>2</div> --> Stone_brick
+Iron_ore -- <div class='label' style='background-color:#61130B;'>1</div> --> Concrete
+Stone_brick -- <div class='label' style='background-color:#66CBC7;'>5</div> --> Concrete
+Water -- <div class='label' style='background-color:#F7D4F7;'>100</div> --> Concrete
+Concrete -- <div class='label' style='background-color:#1FF6A5;'>20</div> --> Refined_concrete
+Iron_stick -- <div class='label' style='background-color:#A1DE79;'>8</div> --> Refined_concrete
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>1</div> --> Refined_concrete
+Water -- <div class='label' style='background-color:#F7D4F7;'>100</div> --> Refined_concrete
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>4</div> --> Firearm_magazine
+Copper_plate -- <div class='label' style='background-color:#902C90;'>2</div> --> Piercing_rounds_magazine
+Firearm_magazine -- <div class='label' style='background-color:#97E36D;'>2</div> --> Piercing_rounds_magazine
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>1</div> --> Piercing_rounds_magazine
+Piercing_rounds_magazine -- <div class='label' style='background-color:#948BD4;'>1</div> --> Uranium_rounds_magazine
+Uranium-238 -- <div class='label' style='background-color:#7D9821;'>1</div> --> Uranium_rounds_magazine
+Coal -- <div class='label' style='background-color:#2021B7;'>1</div> --> Explosives
+Sulfur -- <div class='label' style='background-color:#459F19;'>1</div> --> Explosives
+Water -- <div class='label' style='background-color:#F7D4F7;'>10</div> --> Explosives
+Coal -- <div class='label' style='background-color:#2021B7;'>10</div> --> Grenade
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>5</div> --> Grenade
+Explosives -- <div class='label' style='background-color:#74254E;'>5</div> --> Cluster_grenade
+Grenade -- <div class='label' style='background-color:#25A52E;'>7</div> --> Cluster_grenade
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>5</div> --> Cluster_grenade
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>2</div> --> Iron_gear_wheel
+Iron_ore -- <div class='label' style='background-color:#61130B;'>1</div> --> Iron_plate
+Heavy_oil -- <div class='label' style='background-color:#84323A;'>10</div> --> Lubricant
+Molten_iron -- <div class='label' style='background-color:#7F9C94;'>10</div> --> Tungsten_plate
+Tungsten_ore -- <div class='label' style='background-color:#F5AA07;'>4</div> --> Tungsten_plate
+Copper_cable -- <div class='label' style='background-color:#D3FDB7;'>3</div> --> Electronic_circuit
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Electronic_circuit
+Copper_cable -- <div class='label' style='background-color:#D3FDB7;'>4</div> --> Advanced_circuit
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>2</div> --> Advanced_circuit
+Plastic_bar -- <div class='label' style='background-color:#A841D4;'>2</div> --> Advanced_circuit
+Advanced_circuit -- <div class='label' style='background-color:#5510EC;'>2</div> --> Processing_unit
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>20</div> --> Processing_unit
+Sulfuric_acid -- <div class='label' style='background-color:#BD4789;'>5</div> --> Processing_unit
+Copper_plate -- <div class='label' style='background-color:#902C90;'>1</div> --> Copper_cable
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Iron_stick
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>5</div> --> Steel_plate
+Copper_ore -- <div class='label' style='background-color:#EF16DC;'>1</div> --> Copper_plate
+Uranium_ore -- <div class='label' style='background-color:#953F7A;'>10</div> --> Uranium-238
+Petroleum_gas -- <div class='label' style='background-color:#B1D6E7;'>30</div> --> Sulfur
+Water -- <div class='label' style='background-color:#F7D4F7;'>30</div> --> Sulfur
+Calcite -- <div class='label' style='background-color:#E81A05;'>1</div> --> Molten_iron
+Iron_ore -- <div class='label' style='background-color:#61130B;'>50</div> --> Molten_iron
+Coal -- <div class='label' style='background-color:#2021B7;'>1</div> --> Plastic_bar
+Petroleum_gas -- <div class='label' style='background-color:#B1D6E7;'>20</div> --> Plastic_bar
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Sulfuric_acid
+Sulfur -- <div class='label' style='background-color:#459F19;'>5</div> --> Sulfuric_acid
+Water -- <div class='label' style='background-color:#F7D4F7;'>100</div> --> Sulfuric_acid
+Explosives -- <div class='label' style='background-color:#74254E;'>10</div> --> Atomic_bomb
+Processing_unit -- <div class='label' style='background-color:#4B8F10;'>10</div> --> Atomic_bomb
+Uranium-235 -- <div class='label' style='background-color:#7D981E;'>30</div> --> Atomic_bomb
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>2</div> --> Electric_engine_unit
+Engine_unit -- <div class='label' style='background-color:#CF5941;'>1</div> --> Electric_engine_unit
+Lubricant -- <div class='label' style='background-color:#DBBA74;'>15</div> --> Electric_engine_unit
+Explosives -- <div class='label' style='background-color:#74254E;'>2</div> --> Explosive_rocket
+Rocket -- <div class='label' style='background-color:#3832F4;'>1</div> --> Explosive_rocket
+Battery -- <div class='label' style='background-color:#7A45ED;'>2</div> --> Flying_robot_frame
+Electric_engine_unit -- <div class='label' style='background-color:#82355F;'>1</div> --> Flying_robot_frame
+Electronic_circuit -- <div class='label' style='background-color:#56F946;'>3</div> --> Flying_robot_frame
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>1</div> --> Flying_robot_frame
+Copper_plate -- <div class='label' style='background-color:#902C90;'>20</div> --> Low_density_structure
+Plastic_bar -- <div class='label' style='background-color:#A841D4;'>5</div> --> Low_density_structure
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>2</div> --> Low_density_structure
+Rocket_fuel -- <div class='label' style='background-color:#E06021;'>1</div> --> Nuclear_fuel
+Uranium-235 -- <div class='label' style='background-color:#7D981E;'>1</div> --> Nuclear_fuel
+Light_oil -- <div class='label' style='background-color:#55B709;'>10</div> --> Rocket_fuel
+Solid_fuel -- <div class='label' style='background-color:#F882EA;'>10</div> --> Rocket_fuel
+Explosives -- <div class='label' style='background-color:#74254E;'>1</div> --> Rocket
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>2</div> --> Rocket
+Uranium_ore -- <div class='label' style='background-color:#953F7A;'>10</div> --> Uranium-235
+Iron_gear_wheel -- <div class='label' style='background-color:#971C62;'>1</div> --> Engine_unit
+Pipe -- <div class='label' style='background-color:#25F5CE;'>2</div> --> Engine_unit
+Steel_plate -- <div class='label' style='background-color:#DDF382;'>1</div> --> Engine_unit
+Copper_plate -- <div class='label' style='background-color:#902C90;'>1</div> --> Battery
+Iron_plate -- <div class='label' style='background-color:#73D8FF;'>1</div> --> Battery
+Sulfuric_acid -- <div class='label' style='background-color:#BD4789;'>20</div> --> Battery
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 0 stroke:#971C62,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 1 stroke:#73D8FF,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 2 stroke:#971C62,stroke-width:3px
+style Transport_belt fill:#25B481,stroke:#333,stroke-width:2px
 linkStyle 3 stroke:#25B481,stroke-width:3px
+style Fast_transport_belt fill:#900284,stroke:#333,stroke-width:2px
 linkStyle 4 stroke:#900284,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 5 stroke:#971C62,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 6 stroke:#DBBA74,stroke-width:3px
+style Express_transport_belt fill:#1AA530,stroke:#333,stroke-width:2px
 linkStyle 7 stroke:#1AA530,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 8 stroke:#DBBA74,stroke-width:3px
+style Tungsten_plate fill:#3EA0FB,stroke:#333,stroke-width:2px
 linkStyle 9 stroke:#3EA0FB,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 10 stroke:#73D8FF,stroke-width:3px
+style Transport_belt fill:#25B481,stroke:#333,stroke-width:2px
 linkStyle 11 stroke:#25B481,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 12 stroke:#971C62,stroke-width:3px
+style Underground_belt fill:#6F1B0B,stroke:#333,stroke-width:2px
 linkStyle 13 stroke:#6F1B0B,stroke-width:3px
+style Fast_underground_belt fill:#7DF44E,stroke:#333,stroke-width:2px
 linkStyle 14 stroke:#7DF44E,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 15 stroke:#971C62,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 16 stroke:#DBBA74,stroke-width:3px
+style Express_underground_belt fill:#EA9BFA,stroke:#333,stroke-width:2px
 linkStyle 17 stroke:#EA9BFA,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 18 stroke:#DBBA74,stroke-width:3px
+style Tungsten_plate fill:#3EA0FB,stroke:#333,stroke-width:2px
 linkStyle 19 stroke:#3EA0FB,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 20 stroke:#56F946,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 21 stroke:#73D8FF,stroke-width:3px
+style Transport_belt fill:#25B481,stroke:#333,stroke-width:2px
 linkStyle 22 stroke:#25B481,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 23 stroke:#56F946,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 24 stroke:#971C62,stroke-width:3px
+style Splitter fill:#04FAE7,stroke:#333,stroke-width:2px
 linkStyle 25 stroke:#04FAE7,stroke-width:3px
+style Advanced_circuit fill:#5510EC,stroke:#333,stroke-width:2px
 linkStyle 26 stroke:#5510EC,stroke-width:3px
+style Fast_splitter fill:#B6C72A,stroke:#333,stroke-width:2px
 linkStyle 27 stroke:#B6C72A,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 28 stroke:#971C62,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 29 stroke:#DBBA74,stroke-width:3px
+style Express_splitter fill:#EBDAD6,stroke:#333,stroke-width:2px
 linkStyle 30 stroke:#EBDAD6,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 31 stroke:#DBBA74,stroke-width:3px
+style Processing_unit fill:#4B8F10,stroke:#333,stroke-width:2px
 linkStyle 32 stroke:#4B8F10,stroke-width:3px
+style Tungsten_plate fill:#3EA0FB,stroke:#333,stroke-width:2px
 linkStyle 33 stroke:#3EA0FB,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 34 stroke:#56F946,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 35 stroke:#971C62,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 36 stroke:#73D8FF,stroke-width:3px
+style Inserter fill:#256946,stroke:#333,stroke-width:2px
 linkStyle 37 stroke:#256946,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 38 stroke:#971C62,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 39 stroke:#73D8FF,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 40 stroke:#56F946,stroke-width:3px
+style Inserter fill:#256946,stroke:#333,stroke-width:2px
 linkStyle 41 stroke:#256946,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 42 stroke:#73D8FF,stroke-width:3px
+style Advanced_circuit fill:#5510EC,stroke:#333,stroke-width:2px
 linkStyle 43 stroke:#5510EC,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 44 stroke:#56F946,stroke-width:3px
+style Fast_inserter fill:#D73589,stroke:#333,stroke-width:2px
 linkStyle 45 stroke:#D73589,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 46 stroke:#971C62,stroke-width:3px
+style Copper_cable fill:#D3FDB7,stroke:#333,stroke-width:2px
 linkStyle 47 stroke:#D3FDB7,stroke-width:3px
+style Iron_stick fill:#A1DE79,stroke:#333,stroke-width:2px
 linkStyle 48 stroke:#A1DE79,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 49 stroke:#DDF382,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 50 stroke:#73D8FF,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 51 stroke:#73D8FF,stroke-width:3px
+style Pipe fill:#25F5CE,stroke:#333,stroke-width:2px
 linkStyle 52 stroke:#25F5CE,stroke-width:3px
+style Iron_stick fill:#A1DE79,stroke:#333,stroke-width:2px
 linkStyle 53 stroke:#A1DE79,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 54 stroke:#DDF382,stroke-width:3px
+style Stone fill:#C80845,stroke:#333,stroke-width:2px
 linkStyle 55 stroke:#C80845,stroke-width:3px
+style Stone fill:#C80845,stroke:#333,stroke-width:2px
 linkStyle 56 stroke:#C80845,stroke-width:3px
+style Iron_ore fill:#61130B,stroke:#333,stroke-width:2px
 linkStyle 57 stroke:#61130B,stroke-width:3px
+style Stone_brick fill:#66CBC7,stroke:#333,stroke-width:2px
 linkStyle 58 stroke:#66CBC7,stroke-width:3px
+style Water fill:#F7D4F7,stroke:#333,stroke-width:2px
 linkStyle 59 stroke:#F7D4F7,stroke-width:3px
+style Concrete fill:#1FF6A5,stroke:#333,stroke-width:2px
 linkStyle 60 stroke:#1FF6A5,stroke-width:3px
+style Iron_stick fill:#A1DE79,stroke:#333,stroke-width:2px
 linkStyle 61 stroke:#A1DE79,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 62 stroke:#DDF382,stroke-width:3px
+style Water fill:#F7D4F7,stroke:#333,stroke-width:2px
 linkStyle 63 stroke:#F7D4F7,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 64 stroke:#73D8FF,stroke-width:3px
+style Copper_plate fill:#902C90,stroke:#333,stroke-width:2px
 linkStyle 65 stroke:#902C90,stroke-width:3px
+style Firearm_magazine fill:#97E36D,stroke:#333,stroke-width:2px
 linkStyle 66 stroke:#97E36D,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 67 stroke:#DDF382,stroke-width:3px
+style Piercing_rounds_magazine fill:#948BD4,stroke:#333,stroke-width:2px
 linkStyle 68 stroke:#948BD4,stroke-width:3px
+style Uranium-238 fill:#7D9821,stroke:#333,stroke-width:2px
 linkStyle 69 stroke:#7D9821,stroke-width:3px
+style Coal fill:#2021B7,stroke:#333,stroke-width:2px
 linkStyle 70 stroke:#2021B7,stroke-width:3px
+style Sulfur fill:#459F19,stroke:#333,stroke-width:2px
 linkStyle 71 stroke:#459F19,stroke-width:3px
+style Water fill:#F7D4F7,stroke:#333,stroke-width:2px
 linkStyle 72 stroke:#F7D4F7,stroke-width:3px
+style Coal fill:#2021B7,stroke:#333,stroke-width:2px
 linkStyle 73 stroke:#2021B7,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 74 stroke:#73D8FF,stroke-width:3px
+style Explosives fill:#74254E,stroke:#333,stroke-width:2px
 linkStyle 75 stroke:#74254E,stroke-width:3px
+style Grenade fill:#25A52E,stroke:#333,stroke-width:2px
 linkStyle 76 stroke:#25A52E,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 77 stroke:#DDF382,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 78 stroke:#73D8FF,stroke-width:3px
+style Iron_ore fill:#61130B,stroke:#333,stroke-width:2px
 linkStyle 79 stroke:#61130B,stroke-width:3px
+style Heavy_oil fill:#84323A,stroke:#333,stroke-width:2px
 linkStyle 80 stroke:#84323A,stroke-width:3px
+style Molten_iron fill:#7F9C94,stroke:#333,stroke-width:2px
 linkStyle 81 stroke:#7F9C94,stroke-width:3px
+style Tungsten_ore fill:#F5AA07,stroke:#333,stroke-width:2px
 linkStyle 82 stroke:#F5AA07,stroke-width:3px
+style Copper_cable fill:#D3FDB7,stroke:#333,stroke-width:2px
 linkStyle 83 stroke:#D3FDB7,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 84 stroke:#73D8FF,stroke-width:3px
+style Copper_cable fill:#D3FDB7,stroke:#333,stroke-width:2px
 linkStyle 85 stroke:#D3FDB7,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 86 stroke:#56F946,stroke-width:3px
+style Plastic_bar fill:#A841D4,stroke:#333,stroke-width:2px
 linkStyle 87 stroke:#A841D4,stroke-width:3px
+style Advanced_circuit fill:#5510EC,stroke:#333,stroke-width:2px
 linkStyle 88 stroke:#5510EC,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 89 stroke:#56F946,stroke-width:3px
+style Sulfuric_acid fill:#BD4789,stroke:#333,stroke-width:2px
 linkStyle 90 stroke:#BD4789,stroke-width:3px
+style Copper_plate fill:#902C90,stroke:#333,stroke-width:2px
 linkStyle 91 stroke:#902C90,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 92 stroke:#73D8FF,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 93 stroke:#73D8FF,stroke-width:3px
+style Copper_ore fill:#EF16DC,stroke:#333,stroke-width:2px
 linkStyle 94 stroke:#EF16DC,stroke-width:3px
+style Uranium_ore fill:#953F7A,stroke:#333,stroke-width:2px
 linkStyle 95 stroke:#953F7A,stroke-width:3px
+style Petroleum_gas fill:#B1D6E7,stroke:#333,stroke-width:2px
 linkStyle 96 stroke:#B1D6E7,stroke-width:3px
+style Water fill:#F7D4F7,stroke:#333,stroke-width:2px
 linkStyle 97 stroke:#F7D4F7,stroke-width:3px
+style Calcite fill:#E81A05,stroke:#333,stroke-width:2px
 linkStyle 98 stroke:#E81A05,stroke-width:3px
+style Iron_ore fill:#61130B,stroke:#333,stroke-width:2px
 linkStyle 99 stroke:#61130B,stroke-width:3px
+style Coal fill:#2021B7,stroke:#333,stroke-width:2px
 linkStyle 100 stroke:#2021B7,stroke-width:3px
+style Petroleum_gas fill:#B1D6E7,stroke:#333,stroke-width:2px
 linkStyle 101 stroke:#B1D6E7,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 102 stroke:#73D8FF,stroke-width:3px
+style Sulfur fill:#459F19,stroke:#333,stroke-width:2px
 linkStyle 103 stroke:#459F19,stroke-width:3px
+style Water fill:#F7D4F7,stroke:#333,stroke-width:2px
 linkStyle 104 stroke:#F7D4F7,stroke-width:3px
+style Explosives fill:#74254E,stroke:#333,stroke-width:2px
 linkStyle 105 stroke:#74254E,stroke-width:3px
+style Processing_unit fill:#4B8F10,stroke:#333,stroke-width:2px
 linkStyle 106 stroke:#4B8F10,stroke-width:3px
+style Uranium-235 fill:#7D981E,stroke:#333,stroke-width:2px
 linkStyle 107 stroke:#7D981E,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 108 stroke:#56F946,stroke-width:3px
+style Engine_unit fill:#CF5941,stroke:#333,stroke-width:2px
 linkStyle 109 stroke:#CF5941,stroke-width:3px
+style Lubricant fill:#DBBA74,stroke:#333,stroke-width:2px
 linkStyle 110 stroke:#DBBA74,stroke-width:3px
+style Explosives fill:#74254E,stroke:#333,stroke-width:2px
 linkStyle 111 stroke:#74254E,stroke-width:3px
+style Rocket fill:#3832F4,stroke:#333,stroke-width:2px
 linkStyle 112 stroke:#3832F4,stroke-width:3px
+style Battery fill:#7A45ED,stroke:#333,stroke-width:2px
 linkStyle 113 stroke:#7A45ED,stroke-width:3px
+style Electric_engine_unit fill:#82355F,stroke:#333,stroke-width:2px
 linkStyle 114 stroke:#82355F,stroke-width:3px
+style Electronic_circuit fill:#56F946,stroke:#333,stroke-width:2px
 linkStyle 115 stroke:#56F946,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 116 stroke:#DDF382,stroke-width:3px
+style Copper_plate fill:#902C90,stroke:#333,stroke-width:2px
 linkStyle 117 stroke:#902C90,stroke-width:3px
+style Plastic_bar fill:#A841D4,stroke:#333,stroke-width:2px
 linkStyle 118 stroke:#A841D4,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 119 stroke:#DDF382,stroke-width:3px
+style Rocket_fuel fill:#E06021,stroke:#333,stroke-width:2px
 linkStyle 120 stroke:#E06021,stroke-width:3px
+style Uranium-235 fill:#7D981E,stroke:#333,stroke-width:2px
 linkStyle 121 stroke:#7D981E,stroke-width:3px
+style Light_oil fill:#55B709,stroke:#333,stroke-width:2px
 linkStyle 122 stroke:#55B709,stroke-width:3px
+style Solid_fuel fill:#F882EA,stroke:#333,stroke-width:2px
 linkStyle 123 stroke:#F882EA,stroke-width:3px
+style Explosives fill:#74254E,stroke:#333,stroke-width:2px
 linkStyle 124 stroke:#74254E,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 125 stroke:#73D8FF,stroke-width:3px
+style Uranium_ore fill:#953F7A,stroke:#333,stroke-width:2px
 linkStyle 126 stroke:#953F7A,stroke-width:3px
+style Iron_gear_wheel fill:#971C62,stroke:#333,stroke-width:2px
 linkStyle 127 stroke:#971C62,stroke-width:3px
+style Pipe fill:#25F5CE,stroke:#333,stroke-width:2px
 linkStyle 128 stroke:#25F5CE,stroke-width:3px
+style Steel_plate fill:#DDF382,stroke:#333,stroke-width:2px
 linkStyle 129 stroke:#DDF382,stroke-width:3px
+style Copper_plate fill:#902C90,stroke:#333,stroke-width:2px
 linkStyle 130 stroke:#902C90,stroke-width:3px
+style Iron_plate fill:#73D8FF,stroke:#333,stroke-width:2px
 linkStyle 131 stroke:#73D8FF,stroke-width:3px
+style Sulfuric_acid fill:#BD4789,stroke:#333,stroke-width:2px
 linkStyle 132 stroke:#BD4789,stroke-width:3px
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.12.0/mermaid.min.js" crossorigin="anonymous"></script>
