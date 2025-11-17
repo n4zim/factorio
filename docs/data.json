@@ -504,6 +504,130 @@
     "Calcite": {
       "icon": "https://wiki.factorio.com/images/thumb/Calcite.png/32px-Calcite.png",
       "link": "https://wiki.factorio.com/Calcite"
+    },
+    "Atomic_bomb": {
+      "icon": "https://wiki.factorio.com/images/thumb/Atomic_bomb.png/32px-Atomic_bomb.png",
+      "ingredients": {
+        "Explosives": 10,
+        "Processing_unit": 10,
+        "Uranium-235": 30
+      },
+      "time": 50,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Atomic_bomb"
+    },
+    "Electric_engine_unit": {
+      "icon": "https://wiki.factorio.com/images/thumb/Electric_engine_unit.png/32px-Electric_engine_unit.png",
+      "ingredients": {
+        "Electronic_circuit": 2,
+        "Engine_unit": 1,
+        "Lubricant": 15
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Electric_engine_unit"
+    },
+    "Explosive_rocket": {
+      "icon": "https://wiki.factorio.com/images/thumb/Explosive_rocket.png/32px-Explosive_rocket.png",
+      "ingredients": {
+        "Explosives": 2,
+        "Rocket": 1
+      },
+      "time": 8,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Explosive_rocket"
+    },
+    "Flying_robot_frame": {
+      "icon": "https://wiki.factorio.com/images/thumb/Flying_robot_frame.png/32px-Flying_robot_frame.png",
+      "ingredients": {
+        "Battery": 2,
+        "Electric_engine_unit": 1,
+        "Electronic_circuit": 3,
+        "Steel_plate": 1
+      },
+      "time": 20,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Flying_robot_frame"
+    },
+    "Low_density_structure": {
+      "icon": "https://wiki.factorio.com/images/thumb/Low_density_structure.png/32px-Low_density_structure.png",
+      "ingredients": {
+        "Copper_plate": 20,
+        "Plastic_bar": 5,
+        "Steel_plate": 2
+      },
+      "time": 15,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Low_density_structure"
+    },
+    "Nuclear_fuel": {
+      "icon": "https://wiki.factorio.com/images/thumb/Nuclear_fuel.png/32px-Nuclear_fuel.png",
+      "ingredients": {
+        "Rocket_fuel": 1,
+        "Uranium-235": 1
+      },
+      "time": 90,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Nuclear_fuel"
+    },
+    "Rocket_fuel": {
+      "icon": "https://wiki.factorio.com/images/thumb/Rocket_fuel.png/32px-Rocket_fuel.png",
+      "ingredients": {
+        "Light_oil": 10,
+        "Solid_fuel": 10
+      },
+      "time": 15,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Rocket_fuel"
+    },
+    "Rocket": {
+      "icon": "https://wiki.factorio.com/images/thumb/Rocket.png/32px-Rocket.png",
+      "ingredients": {
+        "Explosives": 1,
+        "Iron_plate": 2
+      },
+      "time": 4,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Rocket"
+    },
+    "Uranium-235": {
+      "icon": "https://wiki.factorio.com/images/thumb/Uranium-235.png/32px-Uranium-235.png",
+      "ingredients": {
+        "Uranium_ore": 10
+      },
+      "time": 12,
+      "output": 0.993,
+      "link": "https://wiki.factorio.com/Uranium-235"
+    },
+    "Engine_unit": {
+      "icon": "https://wiki.factorio.com/images/thumb/Engine_unit.png/32px-Engine_unit.png",
+      "ingredients": {
+        "Iron_gear_wheel": 1,
+        "Pipe": 2,
+        "Steel_plate": 1
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Engine_unit"
+    },
+    "Battery": {
+      "icon": "https://wiki.factorio.com/images/thumb/Battery.png/32px-Battery.png",
+      "ingredients": {
+        "Copper_plate": 1,
+        "Iron_plate": 1,
+        "Sulfuric_acid": 20
+      },
+      "time": 4,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Battery"
+    },
+    "Light_oil": {
+      "icon": "https://wiki.factorio.com/images/thumb/Light_oil.png/32px-Light_oil.png",
+      "link": "https://wiki.factorio.com/Light_oil"
+    },
+    "Solid_fuel": {
+      "icon": "https://wiki.factorio.com/images/thumb/Solid_fuel.png/32px-Solid_fuel.png",
+      "link": "https://wiki.factorio.com/Solid_fuel"
     }
   }
 }
