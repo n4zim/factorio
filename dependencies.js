@@ -55,7 +55,7 @@ function generate() {
   .label { font-weight: bold; text-align: center; }
 </style>
   <div class="mermaid">
-  graph TB
+  flowchart TD
 ${items.join('\n')}
 %% --------------------------------------------------------------------
 ${recipes.join('\n')}
