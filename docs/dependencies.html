@@ -1,66 +1,65 @@
 <style>
   html { max-width: 100%; background-color: black; }
   img { width: 32px; height: 32px; }
-  .edgeLabel { padding: 4px; }
-  .node { background-color: white; }
+    .node { background-color: white; margin: 16px; }
 </style>
-<div class="mermaid">
-graph TB
-Transport_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Transport_belt.png/32px-Transport_belt.png&#39;/&gt;]
-Fast_transport_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png&#39;/&gt;]
-Express_transport_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png&#39;/&gt;]
-Turbo_transport_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_transport_belt.png/32px-Turbo_transport_belt.png&#39;/&gt;]
-Underground_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Underground_belt.png/32px-Underground_belt.png&#39;/&gt;]
-Fast_underground_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_underground_belt.png/32px-Fast_underground_belt.png&#39;/&gt;]
-Express_underground_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_underground_belt.png/32px-Express_underground_belt.png&#39;/&gt;]
-Turbo_underground_belt[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_underground_belt.png/32px-Turbo_underground_belt.png&#39;/&gt;]
-Splitter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Splitter.png/32px-Splitter.png&#39;/&gt;]
-Fast_splitter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_splitter.png/32px-Fast_splitter.png&#39;/&gt;]
-Express_splitter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_splitter.png/32px-Express_splitter.png&#39;/&gt;]
-Turbo_splitter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_splitter.png/32px-Turbo_splitter.png&#39;/&gt;]
-Inserter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Inserter.png/32px-Inserter.png&#39;/&gt;]
-Long-handed_inserter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Long-handed_inserter.png/32px-Long-handed_inserter.png&#39;/&gt;]
-Fast_inserter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_inserter.png/32px-Fast_inserter.png&#39;/&gt;]
-Bulk_inserter[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Bulk_inserter.png/32px-Bulk_inserter.png&#39;/&gt;]
-Big_electric_pole[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Big_electric_pole.png/32px-Big_electric_pole.png&#39;/&gt;]
-Pipe[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe.png/32px-Pipe.png&#39;/&gt;]
-Pipe_to_ground[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe_to_ground.png/32px-Pipe_to_ground.png&#39;/&gt;]
-Rail[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png&#39;/&gt;]
-Stone_brick[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone_brick.png/32px-Stone_brick.png&#39;/&gt;]
-Concrete[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Concrete.png/32px-Concrete.png&#39;/&gt;]
-Refined_concrete[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Refined_concrete.png/32px-Refined_concrete.png&#39;/&gt;]
-Firearm_magazine[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Firearm_magazine.png/32px-Firearm_magazine.png&#39;/&gt;]
-Piercing_rounds_magazine[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Piercing_rounds_magazine.png/32px-Piercing_rounds_magazine.png&#39;/&gt;]
-Uranium_rounds_magazine[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_rounds_magazine.png/32px-Uranium_rounds_magazine.png&#39;/&gt;]
-Explosives[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Explosives.png/32px-Explosives.png&#39;/&gt;]
-Grenade[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Grenade.png/32px-Grenade.png&#39;/&gt;]
-Cluster_grenade[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Cluster_grenade.png/32px-Cluster_grenade.png&#39;/&gt;]
-Iron_gear_wheel[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_gear_wheel.png/32px-Iron_gear_wheel.png&#39;/&gt;]
-Iron_plate[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_plate.png/32px-Iron_plate.png&#39;/&gt;]
-Lubricant[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Lubricant.png/32px-Lubricant.png&#39;/&gt;]
-Tungsten_plate[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_plate.png/32px-Tungsten_plate.png&#39;/&gt;]
-Electronic_circuit[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Electronic_circuit.png/32px-Electronic_circuit.png&#39;/&gt;]
-Advanced_circuit[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Advanced_circuit.png/32px-Advanced_circuit.png&#39;/&gt;]
-Processing_unit[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Processing_unit.png/32px-Processing_unit.png&#39;/&gt;]
-Copper_cable[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png&#39;/&gt;]
-Iron_stick[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_stick.png/32px-Iron_stick.png&#39;/&gt;]
-Steel_plate[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Steel_plate.png/32px-Steel_plate.png&#39;/&gt;]
-Copper_plate[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_plate.png/32px-Copper_plate.png&#39;/&gt;]
-Uranium-238[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium-238.png/32px-Uranium-238.png&#39;/&gt;]
-Sulfur[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfur.png/32px-Sulfur.png&#39;/&gt;]
-Molten_iron[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Molten_iron.png/32px-Molten_iron.png&#39;/&gt;]
-Plastic_bar[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Plastic_bar.png/32px-Plastic_bar.png&#39;/&gt;]
-Sulfuric_acid[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfuric_acid.png/32px-Sulfuric_acid.png&#39;/&gt;]
-Stone[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png&#39;/&gt;]
-Iron_ore[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png&#39;/&gt;]
-Water[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Water.png/32px-Water.png&#39;/&gt;]
-Coal[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png&#39;/&gt;]
-Heavy_oil[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Heavy_oil.png/32px-Heavy_oil.png&#39;/&gt;]
-Tungsten_ore[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_ore.png/32px-Tungsten_ore.png&#39;/&gt;]
-Copper_ore[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png&#39;/&gt;]
-Uranium_ore[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png&#39;/&gt;]
-Petroleum_gas[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Petroleum_gas.png/32px-Petroleum_gas.png&#39;/&gt;]
-Calcite[&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Calcite.png/32px-Calcite.png&#39;/&gt;]
+  <div class="mermaid">
+  graph TB
+Transport_belt[<a href='https://wiki.factorio.com/Transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Transport_belt.png/32px-Transport_belt.png&#39;/&gt;</a>]
+Fast_transport_belt[<a href='https://wiki.factorio.com/Fast_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png&#39;/&gt;</a>]
+Express_transport_belt[<a href='https://wiki.factorio.com/Express_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png&#39;/&gt;</a>]
+Turbo_transport_belt[<a href='https://wiki.factorio.com/Turbo_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_transport_belt.png/32px-Turbo_transport_belt.png&#39;/&gt;</a>]
+Underground_belt[<a href='https://wiki.factorio.com/Underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Underground_belt.png/32px-Underground_belt.png&#39;/&gt;</a>]
+Fast_underground_belt[<a href='https://wiki.factorio.com/Fast_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_underground_belt.png/32px-Fast_underground_belt.png&#39;/&gt;</a>]
+Express_underground_belt[<a href='https://wiki.factorio.com/Express_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_underground_belt.png/32px-Express_underground_belt.png&#39;/&gt;</a>]
+Turbo_underground_belt[<a href='https://wiki.factorio.com/Turbo_underground_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_underground_belt.png/32px-Turbo_underground_belt.png&#39;/&gt;</a>]
+Splitter[<a href='https://wiki.factorio.com/Splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Splitter.png/32px-Splitter.png&#39;/&gt;</a>]
+Fast_splitter[<a href='https://wiki.factorio.com/Fast_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_splitter.png/32px-Fast_splitter.png&#39;/&gt;</a>]
+Express_splitter[<a href='https://wiki.factorio.com/Express_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Express_splitter.png/32px-Express_splitter.png&#39;/&gt;</a>]
+Turbo_splitter[<a href='https://wiki.factorio.com/Turbo_splitter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Turbo_splitter.png/32px-Turbo_splitter.png&#39;/&gt;</a>]
+Inserter[<a href='https://wiki.factorio.com/Inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Inserter.png/32px-Inserter.png&#39;/&gt;</a>]
+Long-handed_inserter[<a href='https://wiki.factorio.com/Long-handed_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Long-handed_inserter.png/32px-Long-handed_inserter.png&#39;/&gt;</a>]
+Fast_inserter[<a href='https://wiki.factorio.com/Fast_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_inserter.png/32px-Fast_inserter.png&#39;/&gt;</a>]
+Bulk_inserter[<a href='https://wiki.factorio.com/Bulk_inserter'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Bulk_inserter.png/32px-Bulk_inserter.png&#39;/&gt;</a>]
+Big_electric_pole[<a href='https://wiki.factorio.com/Big_electric_pole'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Big_electric_pole.png/32px-Big_electric_pole.png&#39;/&gt;</a>]
+Pipe[<a href='https://wiki.factorio.com/Pipe'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe.png/32px-Pipe.png&#39;/&gt;</a>]
+Pipe_to_ground[<a href='https://wiki.factorio.com/Pipe_to_ground'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Pipe_to_ground.png/32px-Pipe_to_ground.png&#39;/&gt;</a>]
+Rail[<a href='https://wiki.factorio.com/Rail'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png&#39;/&gt;</a>]
+Stone_brick[<a href='https://wiki.factorio.com/Stone_brick'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone_brick.png/32px-Stone_brick.png&#39;/&gt;</a>]
+Concrete[<a href='https://wiki.factorio.com/Concrete'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Concrete.png/32px-Concrete.png&#39;/&gt;</a>]
+Refined_concrete[<a href='https://wiki.factorio.com/Refined_concrete'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Refined_concrete.png/32px-Refined_concrete.png&#39;/&gt;</a>]
+Firearm_magazine[<a href='https://wiki.factorio.com/Firearm_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Firearm_magazine.png/32px-Firearm_magazine.png&#39;/&gt;</a>]
+Piercing_rounds_magazine[<a href='https://wiki.factorio.com/Piercing_rounds_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Piercing_rounds_magazine.png/32px-Piercing_rounds_magazine.png&#39;/&gt;</a>]
+Uranium_rounds_magazine[<a href='https://wiki.factorio.com/Uranium_rounds_magazine'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_rounds_magazine.png/32px-Uranium_rounds_magazine.png&#39;/&gt;</a>]
+Explosives[<a href='https://wiki.factorio.com/Explosives'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Explosives.png/32px-Explosives.png&#39;/&gt;</a>]
+Grenade[<a href='https://wiki.factorio.com/Grenade'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Grenade.png/32px-Grenade.png&#39;/&gt;</a>]
+Cluster_grenade[<a href='https://wiki.factorio.com/Cluster_grenade'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Cluster_grenade.png/32px-Cluster_grenade.png&#39;/&gt;</a>]
+Iron_gear_wheel[<a href='https://wiki.factorio.com/Iron_gear_wheel'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_gear_wheel.png/32px-Iron_gear_wheel.png&#39;/&gt;</a>]
+Iron_plate[<a href='https://wiki.factorio.com/Iron_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_plate.png/32px-Iron_plate.png&#39;/&gt;</a>]
+Lubricant[<a href='https://wiki.factorio.com/Lubricant'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Lubricant.png/32px-Lubricant.png&#39;/&gt;</a>]
+Tungsten_plate[<a href='https://wiki.factorio.com/Tungsten_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_plate.png/32px-Tungsten_plate.png&#39;/&gt;</a>]
+Electronic_circuit[<a href='https://wiki.factorio.com/Electronic_circuit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Electronic_circuit.png/32px-Electronic_circuit.png&#39;/&gt;</a>]
+Advanced_circuit[<a href='https://wiki.factorio.com/Advanced_circuit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Advanced_circuit.png/32px-Advanced_circuit.png&#39;/&gt;</a>]
+Processing_unit[<a href='https://wiki.factorio.com/Processing_unit'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Processing_unit.png/32px-Processing_unit.png&#39;/&gt;</a>]
+Copper_cable[<a href='https://wiki.factorio.com/Copper_cable'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png&#39;/&gt;</a>]
+Iron_stick[<a href='https://wiki.factorio.com/Iron_stick'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_stick.png/32px-Iron_stick.png&#39;/&gt;</a>]
+Steel_plate[<a href='https://wiki.factorio.com/Steel_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Steel_plate.png/32px-Steel_plate.png&#39;/&gt;</a>]
+Copper_plate[<a href='https://wiki.factorio.com/Copper_plate'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_plate.png/32px-Copper_plate.png&#39;/&gt;</a>]
+Uranium-238[<a href='https://wiki.factorio.com/Uranium-238'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium-238.png/32px-Uranium-238.png&#39;/&gt;</a>]
+Sulfur[<a href='https://wiki.factorio.com/Sulfur'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfur.png/32px-Sulfur.png&#39;/&gt;</a>]
+Molten_iron[<a href='https://wiki.factorio.com/Molten_iron'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Molten_iron.png/32px-Molten_iron.png&#39;/&gt;</a>]
+Plastic_bar[<a href='https://wiki.factorio.com/Plastic_bar'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Plastic_bar.png/32px-Plastic_bar.png&#39;/&gt;</a>]
+Sulfuric_acid[<a href='https://wiki.factorio.com/Sulfuric_acid'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Sulfuric_acid.png/32px-Sulfuric_acid.png&#39;/&gt;</a>]
+Stone[<a href='https://wiki.factorio.com/Stone'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png&#39;/&gt;</a>]
+Iron_ore[<a href='https://wiki.factorio.com/Iron_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png&#39;/&gt;</a>]
+Water[<a href='https://wiki.factorio.com/Water'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Water.png/32px-Water.png&#39;/&gt;</a>]
+Coal[<a href='https://wiki.factorio.com/Coal'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png&#39;/&gt;</a>]
+Heavy_oil[<a href='https://wiki.factorio.com/Heavy_oil'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Heavy_oil.png/32px-Heavy_oil.png&#39;/&gt;</a>]
+Tungsten_ore[<a href='https://wiki.factorio.com/Tungsten_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Tungsten_ore.png/32px-Tungsten_ore.png&#39;/&gt;</a>]
+Copper_ore[<a href='https://wiki.factorio.com/Copper_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png&#39;/&gt;</a>]
+Uranium_ore[<a href='https://wiki.factorio.com/Uranium_ore'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png&#39;/&gt;</a>]
+Petroleum_gas[<a href='https://wiki.factorio.com/Petroleum_gas'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Petroleum_gas.png/32px-Petroleum_gas.png&#39;/&gt;</a>]
+Calcite[<a href='https://wiki.factorio.com/Calcite'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Calcite.png/32px-Calcite.png&#39;/&gt;</a>]
 %% --------------------------------------------------------------------
 Iron_gear_wheel -- 1 --> Transport_belt
 Iron_plate -- 1 --> Transport_belt
@@ -167,19 +166,124 @@ Petroleum_gas -- 20 --> Plastic_bar
 Iron_plate -- 1 --> Sulfuric_acid
 Sulfur -- 5 --> Sulfuric_acid
 Water -- 100 --> Sulfuric_acid
+linkStyle 0 stroke:#971C62,stroke-width:3px
+linkStyle 1 stroke:#73D8FF,stroke-width:3px
+linkStyle 2 stroke:#971C62,stroke-width:3px
+linkStyle 3 stroke:#25B481,stroke-width:3px
+linkStyle 4 stroke:#900284,stroke-width:3px
+linkStyle 5 stroke:#971C62,stroke-width:3px
+linkStyle 6 stroke:#DBBA74,stroke-width:3px
+linkStyle 7 stroke:#1AA530,stroke-width:3px
+linkStyle 8 stroke:#DBBA74,stroke-width:3px
+linkStyle 9 stroke:#3EA0FB,stroke-width:3px
+linkStyle 10 stroke:#73D8FF,stroke-width:3px
+linkStyle 11 stroke:#25B481,stroke-width:3px
+linkStyle 12 stroke:#971C62,stroke-width:3px
+linkStyle 13 stroke:#6F1B0B,stroke-width:3px
+linkStyle 14 stroke:#7DF44E,stroke-width:3px
+linkStyle 15 stroke:#971C62,stroke-width:3px
+linkStyle 16 stroke:#DBBA74,stroke-width:3px
+linkStyle 17 stroke:#EA9BFA,stroke-width:3px
+linkStyle 18 stroke:#DBBA74,stroke-width:3px
+linkStyle 19 stroke:#3EA0FB,stroke-width:3px
+linkStyle 20 stroke:#56F946,stroke-width:3px
+linkStyle 21 stroke:#73D8FF,stroke-width:3px
+linkStyle 22 stroke:#25B481,stroke-width:3px
+linkStyle 23 stroke:#56F946,stroke-width:3px
+linkStyle 24 stroke:#971C62,stroke-width:3px
+linkStyle 25 stroke:#04FAE7,stroke-width:3px
+linkStyle 26 stroke:#5510EC,stroke-width:3px
+linkStyle 27 stroke:#B6C72A,stroke-width:3px
+linkStyle 28 stroke:#971C62,stroke-width:3px
+linkStyle 29 stroke:#DBBA74,stroke-width:3px
+linkStyle 30 stroke:#EBDAD6,stroke-width:3px
+linkStyle 31 stroke:#DBBA74,stroke-width:3px
+linkStyle 32 stroke:#4B8F10,stroke-width:3px
+linkStyle 33 stroke:#3EA0FB,stroke-width:3px
+linkStyle 34 stroke:#56F946,stroke-width:3px
+linkStyle 35 stroke:#971C62,stroke-width:3px
+linkStyle 36 stroke:#73D8FF,stroke-width:3px
+linkStyle 37 stroke:#256946,stroke-width:3px
+linkStyle 38 stroke:#971C62,stroke-width:3px
+linkStyle 39 stroke:#73D8FF,stroke-width:3px
+linkStyle 40 stroke:#56F946,stroke-width:3px
+linkStyle 41 stroke:#256946,stroke-width:3px
+linkStyle 42 stroke:#73D8FF,stroke-width:3px
+linkStyle 43 stroke:#5510EC,stroke-width:3px
+linkStyle 44 stroke:#56F946,stroke-width:3px
+linkStyle 45 stroke:#D73589,stroke-width:3px
+linkStyle 46 stroke:#971C62,stroke-width:3px
+linkStyle 47 stroke:#D3FDB7,stroke-width:3px
+linkStyle 48 stroke:#A1DE79,stroke-width:3px
+linkStyle 49 stroke:#DDF382,stroke-width:3px
+linkStyle 50 stroke:#73D8FF,stroke-width:3px
+linkStyle 51 stroke:#73D8FF,stroke-width:3px
+linkStyle 52 stroke:#25F5CE,stroke-width:3px
+linkStyle 53 stroke:#A1DE79,stroke-width:3px
+linkStyle 54 stroke:#DDF382,stroke-width:3px
+linkStyle 55 stroke:#C80845,stroke-width:3px
+linkStyle 56 stroke:#C80845,stroke-width:3px
+linkStyle 57 stroke:#61130B,stroke-width:3px
+linkStyle 58 stroke:#66CBC7,stroke-width:3px
+linkStyle 59 stroke:#F7D4F7,stroke-width:3px
+linkStyle 60 stroke:#1FF6A5,stroke-width:3px
+linkStyle 61 stroke:#A1DE79,stroke-width:3px
+linkStyle 62 stroke:#DDF382,stroke-width:3px
+linkStyle 63 stroke:#F7D4F7,stroke-width:3px
+linkStyle 64 stroke:#73D8FF,stroke-width:3px
+linkStyle 65 stroke:#902C90,stroke-width:3px
+linkStyle 66 stroke:#97E36D,stroke-width:3px
+linkStyle 67 stroke:#DDF382,stroke-width:3px
+linkStyle 68 stroke:#948BD4,stroke-width:3px
+linkStyle 69 stroke:#7D9821,stroke-width:3px
+linkStyle 70 stroke:#2021B7,stroke-width:3px
+linkStyle 71 stroke:#459F19,stroke-width:3px
+linkStyle 72 stroke:#F7D4F7,stroke-width:3px
+linkStyle 73 stroke:#2021B7,stroke-width:3px
+linkStyle 74 stroke:#73D8FF,stroke-width:3px
+linkStyle 75 stroke:#74254E,stroke-width:3px
+linkStyle 76 stroke:#25A52E,stroke-width:3px
+linkStyle 77 stroke:#DDF382,stroke-width:3px
+linkStyle 78 stroke:#73D8FF,stroke-width:3px
+linkStyle 79 stroke:#61130B,stroke-width:3px
+linkStyle 80 stroke:#84323A,stroke-width:3px
+linkStyle 81 stroke:#7F9C94,stroke-width:3px
+linkStyle 82 stroke:#F5AA07,stroke-width:3px
+linkStyle 83 stroke:#D3FDB7,stroke-width:3px
+linkStyle 84 stroke:#73D8FF,stroke-width:3px
+linkStyle 85 stroke:#D3FDB7,stroke-width:3px
+linkStyle 86 stroke:#56F946,stroke-width:3px
+linkStyle 87 stroke:#A841D4,stroke-width:3px
+linkStyle 88 stroke:#5510EC,stroke-width:3px
+linkStyle 89 stroke:#56F946,stroke-width:3px
+linkStyle 90 stroke:#BD4789,stroke-width:3px
+linkStyle 91 stroke:#902C90,stroke-width:3px
+linkStyle 92 stroke:#73D8FF,stroke-width:3px
+linkStyle 93 stroke:#73D8FF,stroke-width:3px
+linkStyle 94 stroke:#EF16DC,stroke-width:3px
+linkStyle 95 stroke:#953F7A,stroke-width:3px
+linkStyle 96 stroke:#B1D6E7,stroke-width:3px
+linkStyle 97 stroke:#F7D4F7,stroke-width:3px
+linkStyle 98 stroke:#E81A05,stroke-width:3px
+linkStyle 99 stroke:#61130B,stroke-width:3px
+linkStyle 100 stroke:#2021B7,stroke-width:3px
+linkStyle 101 stroke:#B1D6E7,stroke-width:3px
+linkStyle 102 stroke:#73D8FF,stroke-width:3px
+linkStyle 103 stroke:#459F19,stroke-width:3px
+linkStyle 104 stroke:#F7D4F7,stroke-width:3px
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.12.0/mermaid.min.js" crossorigin="anonymous"></script>
 <script>
 mermaid.initialize({
   startOnLoad: true,
   securityLevel: 'loose',
   flowchart: {
-    //useMaxWidth: false,
-    htmlLabels: true,
+    //nodeSpacing: 200,
+    rankSpacing: 200,
   },
   themeVariables: {
-    lineColor: 'white',
     textColor: "black",
+    fontSize: '24px',
   },
 })
 </script>
