@@ -39,7 +39,7 @@ for(const recipeId in data.recipes) {
       ingredientColors[ingredient] = stringToColor(ingredient)
     }
     const quantity = recipe.ingredients[ingredient]
-    recipes.push(`${ingredient} -- <div class='label' style='background-color:${ingredientColors[ingredient]};'>${quantity}</div> --> ${recipeId}`)
+    recipes.push(`${ingredient} -- "<div class='label' style='background-color:${ingredientColors[ingredient]};'>${quantity}</div>" --> ${recipeId}`)
     styles.push(`style ${ingredient} fill:${ingredientColors[ingredient]},stroke:#333,stroke-width:2px`)
     styles.push(`linkStyle ${linkCount} stroke:${ingredientColors[ingredient]},stroke-width:3px`)
     linkCount++
