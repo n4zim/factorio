@@ -628,6 +628,425 @@
     "Solid_fuel": {
       "icon": "https://wiki.factorio.com/images/thumb/Solid_fuel.png/32px-Solid_fuel.png",
       "link": "https://wiki.factorio.com/Solid_fuel"
+    },
+    "Agricultural_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Agricultural_science_pack.png/32px-Agricultural_science_pack.png",
+      "ingredients": {
+        "Bioflux": 1,
+        "Pentapod_egg": 1
+      },
+      "time": 4,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Agricultural_science_pack"
+    },
+    "Automation_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Automation_science_pack.png/32px-Automation_science_pack.png",
+      "ingredients": {
+        "Copper_plate": 1,
+        "Iron_gear_wheel": 1
+      },
+      "time": 5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Automation_science_pack"
+    },
+    "Chemical_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Chemical_science_pack.png/32px-Chemical_science_pack.png",
+      "ingredients": {
+        "Advanced_circuit": 3,
+        "Engine_unit": 2,
+        "Sulfur": 1
+      },
+      "time": 24,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Chemical_science_pack"
+    },
+    "Cryogenic_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Cryogenic_science_pack.png/32px-Cryogenic_science_pack.png",
+      "ingredients": {
+        "Fluoroketone_(cold)": 6,
+        "Ice": 3,
+        "Lithium_plate": 1
+      },
+      "time": 20,
+      "output": 3,
+      "link": "https://wiki.factorio.com/Cryogenic_science_pack"
+    },
+    "Electromagnetic_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Electromagnetic_science_pack.png/32px-Electromagnetic_science_pack.png",
+      "ingredients": {
+        "Accumulator": 1,
+        "Electrolyte": 25,
+        "Holmium_solution": 25,
+        "Supercapacitor": 1
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Electromagnetic_science_pack"
+    },
+    "Logistic_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Logistic_science_pack.png/32px-Logistic_science_pack.png",
+      "ingredients": {
+        "Inserter": 1,
+        "Transport_belt": 1
+      },
+      "time": 6,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Logistic_science_pack"
+    },
+    "Metallurgic_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Metallurgic_science_pack.png/32px-Metallurgic_science_pack.png",
+      "ingredients": {
+        "Molten_copper": 200,
+        "Tungsten_carbide": 3,
+        "Tungsten_plate": 2
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Metallurgic_science_pack"
+    },
+    "Military_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Military_science_pack.png/32px-Military_science_pack.png",
+      "ingredients": {
+        "Grenade": 1,
+        "Piercing_rounds_magazine": 1,
+        "Wall": 2
+      },
+      "time": 10,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Military_science_pack"
+    },
+    "Production_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Production_science_pack.png/32px-Production_science_pack.png",
+      "ingredients": {
+        "Electric_furnace": 1,
+        "Productivity_module": 1,
+        "Rail": 30
+      },
+      "time": 21,
+      "output": 3,
+      "link": "https://wiki.factorio.com/Production_science_pack"
+    },
+    "Promethium_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Promethium_science_pack.png/32px-Promethium_science_pack.png",
+      "ingredients": {
+        "Biter_egg": 10,
+        "Promethium_asteroid_chunk": 25,
+        "Quantum_processor": 1
+      },
+      "time": 5,
+      "output": 10,
+      "link": "https://wiki.factorio.com/Promethium_science_pack"
+    },
+    "Utility_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Utility_science_pack.png/32px-Utility_science_pack.png",
+      "ingredients": {
+        "Flying_robot_frame": 1,
+        "Low_density_structure": 3,
+        "Processing_unit": 2
+      },
+      "time": 21,
+      "output": 3,
+      "link": "https://wiki.factorio.com/Utility_science_pack"
+    },
+    "Bioflux": {
+      "icon": "https://wiki.factorio.com/images/thumb/Bioflux.png/32px-Bioflux.png",
+      "ingredients": {
+        "Jelly": 12,
+        "Yumako_mash": 15
+      },
+      "time": 6,
+      "output": 4,
+      "link": "https://wiki.factorio.com/Bioflux"
+    },
+    "Pentapod_egg": {
+      "icon": "https://wiki.factorio.com/images/thumb/Pentapod_egg.png/32px-Pentapod_egg.png",
+      "ingredients": {
+        "Nutrients": 30,
+        "Pentapod_egg": 1,
+        "Water": 60
+      },
+      "time": 15,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Pentapod_egg"
+    },
+    "Fluoroketone_(cold)": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fluoroketone_%28cold%29.png/32px-Fluoroketone_%28cold%29.png",
+      "ingredients": {
+        "Fluoroketone_(hot)": 10
+      },
+      "time": 5,
+      "output": 10,
+      "link": "https://wiki.factorio.com/Fluoroketone_(cold)"
+    },
+    "Lithium_plate": {
+      "icon": "https://wiki.factorio.com/images/thumb/Lithium_plate.png/32px-Lithium_plate.png",
+      "ingredients": {
+        "Lithium": 1
+      },
+      "time": 6.4,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Lithium_plate"
+    },
+    "Accumulator": {
+      "icon": "https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png",
+      "ingredients": {
+        "Battery": 5,
+        "Iron_plate": 2
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Accumulator"
+    },
+    "Electrolyte": {
+      "icon": "https://wiki.factorio.com/images/thumb/Electrolyte.png/32px-Electrolyte.png",
+      "ingredients": {
+        "Heavy_oil": 10,
+        "Holmium_solution": 10,
+        "Stone": 1
+      },
+      "time": 5,
+      "output": 10,
+      "link": "https://wiki.factorio.com/Electrolyte"
+    },
+    "Holmium_solution": {
+      "icon": "https://wiki.factorio.com/images/thumb/Holmium_solution.png/32px-Holmium_solution.png",
+      "ingredients": {
+        "Holmium_ore": 2,
+        "Stone": 1,
+        "Water": 10
+      },
+      "time": 10,
+      "output": 100,
+      "link": "https://wiki.factorio.com/Holmium_solution"
+    },
+    "Supercapacitor": {
+      "icon": "https://wiki.factorio.com/images/thumb/Supercapacitor.png/32px-Supercapacitor.png",
+      "ingredients": {
+        "Battery": 1,
+        "Electrolyte": 10,
+        "Electronic_circuit": 4,
+        "Holmium_plate": 2,
+        "Superconductor": 2
+      },
+      "time": 10,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Supercapacitor"
+    },
+    "Molten_copper": {
+      "icon": "https://wiki.factorio.com/images/thumb/Molten_copper.png/32px-Molten_copper.png",
+      "ingredients": {
+        "Calcite": 1,
+        "Copper_ore": 50
+      },
+      "time": 32,
+      "output": 500,
+      "link": "https://wiki.factorio.com/Molten_copper"
+    },
+    "Tungsten_carbide": {
+      "icon": "https://wiki.factorio.com/images/thumb/Tungsten_carbide.png/32px-Tungsten_carbide.png",
+      "ingredients": {
+        "Carbon": 1,
+        "Sulfuric_acid": 10,
+        "Tungsten_ore": 2
+      },
+      "time": 1,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Tungsten_carbide"
+    },
+    "Wall": {
+      "icon": "https://wiki.factorio.com/images/thumb/Wall.png/32px-Wall.png",
+      "ingredients": {
+        "Stone_brick": 5
+      },
+      "time": 0.5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Wall"
+    },
+    "Electric_furnace": {
+      "icon": "https://wiki.factorio.com/images/thumb/Electric_furnace.png/32px-Electric_furnace.png",
+      "ingredients": {
+        "Advanced_circuit": 5,
+        "Steel_plate": 10,
+        "Stone_brick": 10
+      },
+      "time": 5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Electric_furnace"
+    },
+    "Productivity_module": {
+      "icon": "https://wiki.factorio.com/images/thumb/Productivity_module.png/32px-Productivity_module.png",
+      "ingredients": {
+        "Advanced_circuit": 5,
+        "Electronic_circuit": 5
+      },
+      "time": 15,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Productivity_module"
+    },
+    "Quantum_processor": {
+      "icon": "https://wiki.factorio.com/images/thumb/Quantum_processor.png/32px-Quantum_processor.png",
+      "ingredients": {
+        "Carbon_fiber": 1,
+        "Fluoroketone_(cold)": 10,
+        "Lithium_plate": 2,
+        "Processing_unit": 1,
+        "Superconductor": 1,
+        "Tungsten_carbide": 1
+      },
+      "time": 30,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Quantum_processor"
+    },
+    "Jelly": {
+      "icon": "https://wiki.factorio.com/images/thumb/Jelly.png/32px-Jelly.png",
+      "ingredients": {
+        "Jellynut": 1
+      },
+      "time": 1,
+      "output": 0.02,
+      "link": "https://wiki.factorio.com/Jelly"
+    },
+    "Yumako_mash": {
+      "icon": "https://wiki.factorio.com/images/thumb/Yumako_mash.png/32px-Yumako_mash.png",
+      "ingredients": {
+        "Yumako": 1
+      },
+      "time": 1,
+      "output": 0.02,
+      "link": "https://wiki.factorio.com/Yumako_mash"
+    },
+    "Fluoroketone_(hot)": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fluoroketone_%28hot%29.png/32px-Fluoroketone_%28hot%29.png",
+      "ingredients": {
+        "Ammonia": 50,
+        "Fluorine": 50,
+        "Lithium": 1,
+        "Solid_fuel": 1
+      },
+      "time": 10,
+      "output": 50,
+      "link": "https://wiki.factorio.com/Fluoroketone_(hot)"
+    },
+    "Lithium": {
+      "icon": "https://wiki.factorio.com/images/thumb/Lithium.png/32px-Lithium.png",
+      "ingredients": {
+        "Ammonia": 50,
+        "Holmium_plate": 1,
+        "Lithium_brine": 50
+      },
+      "time": 20,
+      "output": 5,
+      "link": "https://wiki.factorio.com/Lithium"
+    },
+    "Holmium_ore": {
+      "icon": "https://wiki.factorio.com/images/thumb/Holmium_ore.png/32px-Holmium_ore.png",
+      "ingredients": {
+        "Scrap": 1
+      },
+      "time": 0.2,
+      "output": 0.04,
+      "link": "https://wiki.factorio.com/Holmium_ore"
+    },
+    "Holmium_plate": {
+      "icon": "https://wiki.factorio.com/images/thumb/Holmium_plate.png/32px-Holmium_plate.png",
+      "ingredients": {
+        "Holmium_solution": 20
+      },
+      "time": 1,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Holmium_plate"
+    },
+    "Superconductor": {
+      "icon": "https://wiki.factorio.com/images/thumb/Superconductor.png/32px-Superconductor.png",
+      "ingredients": {
+        "Copper_plate": 1,
+        "Holmium_plate": 1,
+        "Light_oil": 5,
+        "Plastic_bar": 1
+      },
+      "time": 5,
+      "output": 2,
+      "link": "https://wiki.factorio.com/Superconductor"
+    },
+    "Carbon": {
+      "icon": "https://wiki.factorio.com/images/thumb/Carbon.png/32px-Carbon.png",
+      "ingredients": {
+        "Coal": 2,
+        "Sulfuric_acid": 20
+      },
+      "time": 1,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Carbon"
+    },
+    "Carbon_fiber": {
+      "icon": "https://wiki.factorio.com/images/thumb/Carbon_fiber.png/32px-Carbon_fiber.png",
+      "ingredients": {
+        "Carbon": 1,
+        "Yumako_mash": 10
+      },
+      "time": 5,
+      "output": 1,
+      "link": "https://wiki.factorio.com/Carbon_fiber"
+    },
+    "Ammonia": {
+      "icon": "https://wiki.factorio.com/images/thumb/Ammonia.png/32px-Ammonia.png",
+      "ingredients": {
+        "Ammoniacal_solution": 50
+      },
+      "time": 1,
+      "output": 5,
+      "link": "https://wiki.factorio.com/Ammonia"
+    },
+    "Ice": {
+      "icon": "https://wiki.factorio.com/images/thumb/Ice.png/32px-Ice.png",
+      "link": "https://wiki.factorio.com/Ice"
+    },
+    "Jellynut": {
+      "icon": "https://wiki.factorio.com/images/thumb/Jellynut.png/32px-Jellynut.png",
+      "link": "https://wiki.factorio.com/Jellynut"
+    },
+    "Ammoniacal_solution": {
+      "icon": "https://wiki.factorio.com/images/thumb/Ammoniacal_solution.png/32px-Ammoniacal_solution.png",
+      "link": "https://wiki.factorio.com/Ammoniacal_solution"
+    },
+    "Yumako": {
+      "icon": "https://wiki.factorio.com/images/thumb/Yumako.png/32px-Yumako.png",
+      "link": "https://wiki.factorio.com/Yumako"
+    },
+    "Fluorine": {
+      "icon": "https://wiki.factorio.com/images/thumb/Fluorine.png/32px-Fluorine.png",
+      "link": "https://wiki.factorio.com/Fluorine"
+    },
+    "Lithium_brine": {
+      "icon": "https://wiki.factorio.com/images/thumb/Lithium_brine.png/32px-Lithium_brine.png",
+      "link": "https://wiki.factorio.com/Lithium_brine"
+    },
+    "Nutrients": {
+      "icon": "https://wiki.factorio.com/images/thumb/Nutrients.png/32px-Nutrients.png",
+      "link": "https://wiki.factorio.com/Nutrients"
+    },
+    "Biter_egg": {
+      "icon": "https://wiki.factorio.com/images/thumb/Biter_egg.png/32px-Biter_egg.png",
+      "link": "https://wiki.factorio.com/Biter_egg"
+    },
+    "Promethium_asteroid_chunk": {
+      "icon": "https://wiki.factorio.com/images/thumb/Promethium_asteroid_chunk.png/32px-Promethium_asteroid_chunk.png",
+      "link": "https://wiki.factorio.com/Promethium_asteroid_chunk"
+    },
+    "Scrap": {
+      "icon": "https://wiki.factorio.com/images/thumb/Scrap.png/32px-Scrap.png",
+      "link": "https://wiki.factorio.com/Scrap"
+    },
+    "Space_science_pack": {
+      "icon": "https://wiki.factorio.com/images/thumb/Space_science_pack.png/32px-Space_science_pack.png",
+      "ingredients": {
+        "Carbon": 15,
+        "Ice": 15,
+        "Iron_plate": 15
+      },
+      "time": 15,
+      "output": 5,
+      "link": "https://wiki.factorio.com/Space_science_pack"
     }
   }
 }

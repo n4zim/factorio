@@ -33,14 +33,14 @@ for(const recipeId in data.recipes) {
 let linkCount = 0
 for(const recipeId in data.recipes) {
   const recipe = data.recipes[recipeId]
-  items.push(`${recipeId}[<a href='${recipe.link}'>&lt;img src=&#39;${recipe.icon}&#39;/&gt;</a><br>Output: ${round(output[recipeId] || 0)}/s${deps[recipeId] ? `<br>Links: ${deps[recipeId]}<br>Required: ${total[recipeId] || 0}<br>For final: ${Math.ceil(final[recipeId] || 0)}<br>Min. build: ${Math.ceil(final[recipeId] / (output[recipeId] || 1))}` : ''}]`)
+  items.push(`${format(recipeId)}[<a href='${encode(recipe.link)}'>&lt;img src=&#39;${recipe.icon}&#39;/&gt;</a><br>Output: ${round(output[recipeId] || 0)}/s${deps[recipeId] ? `<br>Links: ${deps[recipeId]}<br>Required: ${total[recipeId] || 0}<br>For final: ${Math.ceil(final[recipeId] || 0)}<br>Min. build: ${Math.ceil(final[recipeId] / (output[recipeId] || 1))}` : ''}]`)
   for(const ingredient in recipe.ingredients) {
     if (!ingredientColors[ingredient]) {
       ingredientColors[ingredient] = stringToColor(ingredient)
     }
     const quantity = recipe.ingredients[ingredient]
-    recipes.push(`${ingredient} -- "<div class='label' style='background-color:${ingredientColors[ingredient]};'>${quantity}</div>" --> ${recipeId}`)
-    styles.push(`style ${ingredient} fill:${ingredientColors[ingredient]},stroke:#333,stroke-width:2px`)
+    recipes.push(`${format(ingredient)} -- "<div class='label' style='background-color:${ingredientColors[ingredient]};'>${quantity}</div>" --> ${format(recipeId)}`)
+    styles.push(`style ${format(ingredient)} fill:${ingredientColors[ingredient]},stroke:#333,stroke-width:2px`)
     styles.push(`linkStyle ${linkCount} stroke:${ingredientColors[ingredient]},stroke-width:3px`)
     linkCount++
   }
@@ -126,4 +126,12 @@ function calculateIngredientTotal(ingredientId, visited = new Set()) {
   }
   visited.delete(ingredientId)
   return total
+}
+
+function format(text) {
+  return text.replaceAll(/\(|\)/g, '')
+}
+
+function encode(text) {
+  return text.replaceAll('(', '%28').replaceAll(')', '%29')
 }
