@@ -58,14 +58,32 @@ ${recipes.join('\n')}
 ${styles.join('\n')}
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.12.0/mermaid.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@panzoom/panzoom@4.6.0/dist/panzoom.min.js"></script>
 <script>
-mermaid.initialize({
-  startOnLoad: true,
-  maxTextSize: 90000,
-  securityLevel: "loose",
-  flowchart: { rankSpacing: 200 },
-  themeVariables: { textColor: "black", fontSize: "24px" },
-})
+  mermaid.initialize({
+    startOnLoad: false,
+    maxTextSize: 90000,
+    securityLevel: "loose",
+    flowchart: { rankSpacing: 400 },
+    themeVariables: { textColor: "black", fontSize: "24px" },
+  });
+  mermaid.run({
+    querySelector: '.mermaid',
+    postRenderCallback: (id) => {
+      const svg = document.querySelector('.mermaid svg');
+      const panzoomInstance = Panzoom(svg, {
+        maxScale: 5,
+        minScale: 0.5,
+        step: 1,
+      });
+      svg.addEventListener("wheel", (event) => {
+        panzoomInstance.zoomWithWheel(event);
+      });
+      document.querySelectorAll('.mermaid a').forEach(link => {
+        link.setAttribute('target', '_blank');
+      });
+    }
+  });
 </script></body></html>`
 }
 
