@@ -49,12 +49,8 @@ for(const recipeId in data.recipes) {
 require('fs').writeFileSync('./docs/dependencies.html', generate())
 
 function generate() {
-  return `<style>
-  html { max-width: 100%; background-color: black; }
-  .node { margin: 16px; }
-  .label { font-weight: bold; text-align: center; }
-</style>
-  <div class="mermaid">
+  return `<html><head><meta charset="UTF-8"><title>Factorio - Recipes Dependencies</title>
+  <style>html { max-width: 100%; background-color: black; } .node { margin: 16px; } .label { font-weight: bold; text-align: center; }</style></head><body><div class="mermaid">
   flowchart TD
 ${items.join('\n')}
 %% --------------------------------------------------------------------
@@ -66,16 +62,11 @@ ${styles.join('\n')}
 mermaid.initialize({
   startOnLoad: true,
   maxTextSize: 90000,
-  securityLevel: 'loose',
-  flowchart: {
-    rankSpacing: 200,
-  },
-  themeVariables: {
-    textColor: "black",
-    fontSize: '24px',
-  },
+  securityLevel: "loose",
+  flowchart: { rankSpacing: 200 },
+  themeVariables: { textColor: "black", fontSize: "24px" },
 })
-</script>`
+</script></body></html>`
 }
 
 function stringToColor(str) {

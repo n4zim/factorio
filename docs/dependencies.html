@@ -1,9 +1,5 @@
-<style>
-  html { max-width: 100%; background-color: black; }
-  .node { margin: 16px; }
-  .label { font-weight: bold; text-align: center; }
-</style>
-  <div class="mermaid">
+<html><head><meta charset="UTF-8"><title>Factorio - Recipes Dependencies</title>
+  <style>html { max-width: 100%; background-color: black; } .node { margin: 16px; } .label { font-weight: bold; text-align: center; }</style></head><body><div class="mermaid">
   flowchart TD
 Transport_belt[<a href='https://wiki.factorio.com/Transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Transport_belt.png/32px-Transport_belt.png&#39;/&gt;</a><br>Output: 4/s<br>Links: 3<br>Required: 10<br>For final: 45<br>Min. build: 12]
 Fast_transport_belt[<a href='https://wiki.factorio.com/Fast_transport_belt'>&lt;img src=&#39;https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png&#39;/&gt;</a><br>Output: 2/s<br>Links: 1<br>Required: 1<br>For final: 1<br>Min. build: 1]
@@ -479,13 +475,8 @@ linkStyle 132 stroke:#BD4789,stroke-width:3px
 mermaid.initialize({
   startOnLoad: true,
   maxTextSize: 90000,
-  securityLevel: 'loose',
-  flowchart: {
-    rankSpacing: 200,
-  },
-  themeVariables: {
-    textColor: "black",
-    fontSize: '24px',
-  },
+  securityLevel: "loose",
+  flowchart: { rankSpacing: 200 },
+  themeVariables: { textColor: "black", fontSize: "24px" },
 })
-</script>
+</script></body></html>
